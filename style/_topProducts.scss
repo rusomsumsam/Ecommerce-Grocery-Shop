@@ -1,0 +1,738 @@
+//Top Products Title Section Starts
+.top_products_title_main {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .top_products_title_inner {
+        width: 100%;
+        .top_products_title_txt {
+            width: 100%;
+            p {
+                font-family: "Open Sans", sans-serif;
+                font-weight: 400;
+                color: #000000;
+                font-size: 40px;
+            }
+        }
+        .vertical_line {
+            margin-top: -5px;
+            .normal_line {
+                width: 50px;
+                height: 1px;
+                background-color: rgb(126, 121, 121);
+                margin-top: 6px;
+            }
+            .box_cus {
+                gap: 6px;
+                .box_one {
+                    width: 12px;
+                    height: 12px;
+                    background-color: #ff5427;
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                }
+                .box_two {
+                    width: 13px;
+                    height: 13px;
+                    background-color: #1accfc;
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                }
+            }
+        }
+    }
+}
+//Top Products Title Section Ends
+//Top Products Section Starts
+.top_products_main {
+    width: 86%;
+    margin: auto;
+    .top_products_inner {
+        width: 100%;
+        .search_priceRange_foodPreference_discount_customerReview_cuisine_specialDeals_wrap_main {
+            width: 24%;
+            background-color: #f8f8f8;
+            .search_priceRange_foodPreference_discount_customerReview_cuisine_specialDeals_wrap_inner {
+                width: 90%;
+                margin: 30px auto 0 auto;
+                .search_box_wrap {
+                    width: 100%;
+                    form {
+                        div {
+                            div {
+                                label {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                    font-size: 20px;
+                                    color: #ff5427;
+                                    margin-bottom: 15px;
+                                }
+                                input {
+                                    width: 100%;
+                                    height: 40px;
+                                    border: none;
+                                    &::placeholder {
+                                        font-family: "Open Sans", sans-serif;
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        color: #666463;
+                                    }
+                                }
+                            }
+                            button {
+                                width: 40px;
+                                height: 40px;
+                                margin-top: 45px;
+                                background-color: #1accfc;
+                                border: none;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+                .price_range_wrap {
+                    div {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #ff5427;
+                            margin-bottom: 15px;
+                            margin-top: 30px;
+                        }
+                    }
+                    form {
+                        label {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: #363636;
+                            word-spacing: 15px;
+                        }
+                        input[type="range"] {
+                            appearance: none;
+                            -webkit-appearance: none;
+                            width: 96%;
+                            height: 6px;
+                            background-color: #1accfc;
+                        }
+                    }
+                }
+                .food_preference_wrap {
+                    div {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #ff5427;
+                            margin-bottom: 15px;
+                            margin-top: 30px;
+                        }
+                    }
+                    form {
+                        div {
+                            label {
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 400;
+                                font-size: 14px;
+                                color: #242222;
+                                margin-left: 10px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+                .discount_wrap {
+                    div {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #ff5427;
+                            margin-bottom: 15px;
+                            margin-top: 30px;
+                        }
+                    }
+                    form {
+                        div {
+                            label {
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 400;
+                                font-size: 14px;
+                                color: #242222;
+                                margin-left: 10px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+                .customer_review_wrap {
+                    .for_heading {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #ff5427;
+                            margin-bottom: 15px;
+                            margin-top: 30px;
+                        }
+                    }
+                    .for_five, .for_four, .for_three_point_five, .for_three, .for_two_point_five {
+                        gap: 15px;
+                        .for_icon {
+                            gap: 5px;
+                            span {
+                                color: #cca830;
+                            }
+                        }
+                        .for_txt {
+                            p {
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 400;
+                                font-size: 14px;
+                                color: #242222;
+                            }
+                        }
+                    }
+                }
+                .cuisine_wrap {
+                    div {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #ff5427;
+                            margin-bottom: 15px;
+                            margin-top: 30px;
+                        }
+                    }
+                    form {
+                        div {
+                            label {
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 400;
+                                font-size: 14px;
+                                color: #242222;
+                                margin-left: 10px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+                .special_deals_wrap {
+                    .for_heading {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: #ff5427;
+                            margin-bottom: 15px;
+                            margin-top: 30px;
+                        }
+                    }
+                    .special_deal_item_wrap {
+                        gap: 10px;
+                        .special_deals_item {
+                            .special_deals_item_img {
+                                img {
+                                    width: 70px;
+                                }
+                            }
+                            .special_deals_item_information {
+                                .special_deals_item_name {
+                                    p {
+                                        font-family: "Open Sans", sans-serif;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        color: #242222;
+                                        margin-left: 10px;
+                                        margin-bottom: 0;
+                                    }
+                                }
+                                .special_deals_item_price {
+                                    color: #aa2d0e;
+                                    margin-left: 10px;
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+                .divider_line_cus {
+                    width: 240px;
+                    height: 1px;
+                    background-color: #dadada;
+                    margin-top: 15px;
+                }
+            }
+        }
+        .nuts_pureEnergy_oils_pastaNoodles_wrap_main {
+            width: 76%;
+            .nuts_pureEnergy_oils_pastaNoodles_wrap_inner {
+                width: 100%;
+                .nuts_wrap {
+                    width: 98%;
+                    margin: auto;
+                    height: 445px;
+                    background-color: #ffffff;
+                    box-shadow: 5px 0 10px -5px rgba(0,0,0,0.3),
+                    -5px 0 10px -5px rgba(0,0,0,0.3),
+                    0 5px 10px -5px rgba(0,0,0,0.3),
+                    0 -5px 10px -5px rgba(0,0,0,0.3);
+                    .for_header {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 600;
+                            font-size: 26px;
+                            color: #242222;
+                            padding: 20px 0 30px 0;
+                        }
+                    }
+                    .almond_cashew_pista_wrap {
+                        width: 90%;
+                        margin: 20px auto 0 auto;
+                        .almonds_cus, .cashews_cus, .pistachios_cus {
+                            position: relative;
+                            .new_sticker_cus {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 100%;
+                                -webkit-border-radius: 100%;
+                                -moz-border-radius: 100%;
+                                -ms-border-radius: 100%;
+                                -o-border-radius: 100%;
+                                background-color: #ff5d6e;
+                                text-align: center;
+                                position: absolute;
+                                top: 2%;
+                                left: 85%;
+                                p {
+                                    margin-bottom: 0;
+                                    color: #ffffff;
+                                }
+                            }
+                            .for_bg_cus_one {
+                                background-color: #f2c01d;
+                            }
+                            .for_bg_cus_two {
+                                background-color: #39a8f1;
+                            }
+                            .for_img {
+                                img {
+                                    width: 120px;
+                                    height: 132px;
+                                }
+                                .color_cus {
+                                    width: 140px;
+                                    height: 40px;
+                                    background-color: rgba(119, 54, 0, 0.993);
+                                    position: absolute;
+                                    top: 36%;
+                                    left: 12%;
+                                    visibility: hidden;
+                                    p {
+                                        color: #ffffff;
+                                        margin-bottom: 0;
+                                        font-family: "Open Sans", sans-serif;
+                                        font-weight: 500;
+                                        font-size: 15px;
+                                    }
+                                }
+                                &:hover .color_cus {
+                                    visibility: visible;
+                                }
+                            }
+                            .for_txt {
+                                p {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    color: #242222;
+                                    margin-top: 50px;
+                                }
+                            }
+                            .for_price {
+                                gap: 16px;
+                                margin-top: -9px;
+                                .one {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: #aa2d0e;
+                                }
+                                .two {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: #494949;
+                                }
+                            }
+                            button {
+                                width: 170px;
+                                height: 45px;
+                                border-radius: 2%;
+                                margin-top: 9px;
+                                background-color: #1accfc;
+                                border: none;
+                                -webkit-border-radius: 2%;
+                                -moz-border-radius: 2%;
+                                -ms-border-radius: 2%;
+                                -o-border-radius: 2%;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+                .pure_energy_wrap {
+                    width: 98%;
+                    height: 315px;
+                    margin: 10px auto 10px auto;
+                    background-color: #fe5723;
+                    .pure_energy_wrap_inner {
+                        width: 100%;
+                        height: 315px;
+                        .for_txt {
+                            .big_txt {
+                                p {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 700;
+                                    font-size: 36px;
+                                    color: #ffffff;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                            .small_txt {
+                                p {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    color: #ffffff;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                            .offer_txt {
+                                p {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    color: #242222;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                        }
+                        .for_img {
+                            img {
+                                width: 250px;
+                                height: 250px;
+                            }
+                        }
+                    }
+                }
+                .oils_wrap {
+                    width: 98%;
+                    margin: auto;
+                    height: 445px;
+                    background-color: #ffffff;
+                    box-shadow: 5px 0 10px -5px rgba(0,0,0,0.3),
+                    -5px 0 10px -5px rgba(0,0,0,0.3),
+                    0 5px 10px -5px rgba(0,0,0,0.3),
+                    0 -5px 10px -5px rgba(0,0,0,0.3);
+                    .for_header {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 600;
+                            font-size: 26px;
+                            color: #242222;
+                            padding: 20px 0 20px 0;
+                        }
+                    }
+                    .freedom_saffola_fortune_wrap {
+                        width: 90%;
+                        margin: auto;
+                        .freedom_oil_cus, .saffola_gold_cus, .fortune_oil_cus {
+                            position: relative;
+                            .new_sticker_cus {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 100%;
+                                -webkit-border-radius: 100%;
+                                -moz-border-radius: 100%;
+                                -ms-border-radius: 100%;
+                                -o-border-radius: 100%;
+                                background-color: #ff5d6e;
+                                text-align: center;
+                                position: absolute;
+                                top: 2%;
+                                left: 85%;
+                                p {
+                                    margin-bottom: 0;
+                                    color: #ffffff;
+                                }
+                            }
+                            .for_bg_cus_one {
+                                background-color: #f2c01d;
+                            }
+                            .for_bg_cus_two {
+                                background-color: #39a8f1;
+                            }
+                            .for_img {
+                                margin-top: 50px;
+                                img {
+                                    width: 100px;
+                                    height: 118px !important;
+                                }
+                            }
+                            .for_txt {
+                                p {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    color: #242222;
+                                    margin-top: 50px;
+                                }
+                            }
+                            .for_price {
+                                gap: 16px;
+                                margin-top: -9px;
+                                .one {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: #aa2d0e;
+                                }
+                                .two {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: #494949;
+                                }
+                            }
+                            button {
+                                width: 170px;
+                                height: 45px;
+                                border-radius: 2%;
+                                margin-top: 9px;
+                                background-color: #1accfc;
+                                border: none;
+                                -webkit-border-radius: 2%;
+                                -moz-border-radius: 2%;
+                                -ms-border-radius: 2%;
+                                -o-border-radius: 2%;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+                .noodles_pasta_wrap {
+                    width: 98%;
+                    margin: 10px auto 0 auto;
+                    height: 445px;
+                    background-color: #ffffff;
+                    box-shadow: 5px 0 10px -5px rgba(0,0,0,0.3),
+                    -5px 0 10px -5px rgba(0,0,0,0.3),
+                    0 5px 10px -5px rgba(0,0,0,0.3),
+                    0 -5px 10px -5px rgba(0,0,0,0.3);
+                    .for_header {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 600;
+                            font-size: 26px;
+                            color: #242222;
+                            padding: 20px 0 30px 0;
+                        }
+                    }
+                    .yippee_wheat_chinese_wrap {
+                        width: 90%;
+                        margin: auto;
+                        .yippee_noodles_cus, .wheat_pasta_cus, .chinese_noodles_cus {
+                            position: relative;
+                            .new_sticker_cus {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 100%;
+                                -webkit-border-radius: 100%;
+                                -moz-border-radius: 100%;
+                                -ms-border-radius: 100%;
+                                -o-border-radius: 100%;
+                                background-color: #ff5d6e;
+                                text-align: center;
+                                position: absolute;
+                                top: 2%;
+                                left: 85%;
+                                p {
+                                    margin-bottom: 0;
+                                    color: #ffffff;
+                                }
+                            }
+                            .for_bg_cus_one {
+                                background-color: #f2c01d;
+                            }
+                            .for_bg_cus_two {
+                                background-color: #39a8f1;
+                            }
+                            .for_img {
+                                margin-top: 20px;
+                                img {
+                                    width: 120px;
+                                    height: 132px !important;
+                                }
+                            }
+                            .for_txt {
+                                p {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    color: #242222;
+                                    margin-top: 50px;
+                                }
+                            }
+                            .for_price {
+                                gap: 16px;
+                                margin-top: -9px;
+                                .one {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: #aa2d0e;
+                                }
+                                .two {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: #494949;
+                                }
+                            }
+                            button {
+                                width: 170px;
+                                height: 45px;
+                                border-radius: 2%;
+                                margin-top: 9px;
+                                background-color: #1accfc;
+                                border: none;
+                                -webkit-border-radius: 2%;
+                                -moz-border-radius: 2%;
+                                -ms-border-radius: 2%;
+                                -o-border-radius: 2%;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Top Products Section Ends
+//!Top Product Section For Responsive Starts
+@media only screen and (max-width:991px) {
+    .top_products_main {
+        width: 98% !important;
+    }
+}
+@media only screen and (max-width:800px) {
+    .top_products_main {
+        width: 100% !important;
+        .top_products_inner {
+            flex-direction: column !important;
+            .search_priceRange_foodPreference_discount_customerReview_cuisine_specialDeals_wrap_main {
+                width: 100%;
+                margin-bottom: 20px;
+                .search_priceRange_foodPreference_discount_customerReview_cuisine_specialDeals_wrap_inner {
+                    width: 90%;
+                    margin: auto;
+                    .search_box_wrap {
+                        width: 100%;
+                        form {
+                            width: 100%;
+                            div {
+                                width: 100%;
+                                div {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .price_range_wrap {
+                        form {
+                            width: 100% !important;
+                            input {
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                    .divider_line_cus {
+                        width: 100% !important;
+                    }
+                }
+                
+            }
+            .nuts_pureEnergy_oils_pastaNoodles_wrap_main {
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:650px) {
+    .nuts_pureEnergy_oils_pastaNoodles_wrap_inner {
+        .nuts_wrap {
+            height: 1060px !important;
+            .almond_cashew_pista_wrap {
+                flex-direction: column !important;
+                gap: 20px !important;
+                .almonds_cus, .cashews_cus, .pistachios_cus {
+                    .new_sticker_cus {
+                        left: 60% !important;
+                    }
+                }
+            }
+        }
+        .pure_energy_wrap {
+            height: 330px !important;
+            .pure_energy_wrap_inner {
+                flex-direction: column !important;
+                .for_txt {
+                    margin-top: 10px;
+                }
+                .for_img {
+                    margin-bottom: 10px;
+                    img {
+                        width: 150px !important;
+                        height: 150px !important;
+                    }
+                }
+            }
+        }
+        .oils_wrap {
+            height: 1140px !important;
+            .freedom_saffola_fortune_wrap {
+                flex-direction: column !important;
+                gap: 20px !important;
+                .freedom_oil_cus, .saffola_gold_cus, .fortune_oil_cus {
+                    .new_sticker_cus {
+                        left: 55% !important;
+                    }
+                }
+            }
+        }
+        .noodles_pasta_wrap {
+            height: 1100px !important;
+            .yippee_wheat_chinese_wrap {
+                flex-direction: column !important;
+                gap: 20px !important;
+                .yippee_noodles_cus, .wheat_pasta_cus, .chinese_noodles_cus {
+                    .new_sticker_cus {
+                        left: 58% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+//!Top Product Section For Responsive Ends
