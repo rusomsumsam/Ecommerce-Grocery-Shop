@@ -17,3 +17,155 @@
     }
 }
 //Grocery Offer Zone Text Ends
+//Navbar One Starts
+.navbar_one_main {
+    width: 100%;
+    .navbar_one_inner {
+        width: 100%;
+        .logo_shop_information_searchbar_wrap {
+            width: 100%;
+            .logo_main {
+                width: 30%;
+                .logo_txt {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 500;
+                    font-size: 30px;
+                    font-style: italic;
+                    a {
+                        text-decoration: none;
+                        color: #030303;
+                        span {
+                            color: #ff4d08;
+                        }
+                    }
+                }
+                .logo_img {
+                    margin-top: -5px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .shop_information_searchbar_main {
+                width: 70%;
+                gap: 20px;
+                .shop_information_wrap {
+                    width: 100%;
+                    gap: 38px;
+                    .shop_locator, .track_order, .phn_no, .sign_in, .sign_up {
+                        display: flex;
+                        gap: 14px;
+                        .icon_cus {
+                            a {
+                                color: #ff4d08;
+                            }
+                        }
+                        .txt_cus {
+                            a {
+                                color: #030303;
+                                text-decoration: none;
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 500;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .horizontal_line {
+                        width: 1px;
+                        height: 30px;
+                        background-color: rgb(182, 177, 177);
+                    }
+                }
+                .searchbar_shopcart_wrap {
+                    width: 100%;
+                    .searchbar_icon_wrap {
+                        width: 90%;
+                        .searchbar_icon_inner {
+                            width: 100%;
+                            .searchbar_cus {
+                                width: 80%;
+                                input {
+                                    width: 93%;
+                                    height: 50px;
+                                    border: 1px solid black;
+                                    border-right: none;
+                                    padding-left: 10px;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                    &::placeholder {
+                                        font-family: "Open Sans", sans-serif;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            .searchbar_icon_cus {
+                                width: 8%;
+                                background-color: #1accfc;
+                                margin-left: -48px;
+                                border: none;
+                                color: #ffffff;
+                                &:hover {
+                                    background-color: #ff4d08;
+                                }
+                            }
+                        }
+                    }
+                    .shop_curt {
+                        width: 5%;
+                        background-color: #ff4d08;
+                        margin-left: -80px;
+                        a {
+                            color: #ffffff;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Navbar One Ends
+//!Navbar One For Responsive Starts
+@media only screen and (min-width:992px) and (max-width:1060px) {
+    .shop_information_searchbar_main {
+        width: 70% !important;
+        .shop_information_wrap {
+            gap: 15px !important;
+        }
+    }
+}
+@media only screen and (min-width:1061px) and (max-width:1081px) {
+    .shop_information_searchbar_main {
+        width: 65% !important;
+        .shop_information_wrap {
+            gap: 15px !important;
+        }
+    }
+}
+@media only screen and (min-width:1082px) and (max-width:1120px) {
+    .shop_information_searchbar_main {
+        width: 65% !important;
+        .shop_information_wrap {
+            gap: 15px !important;
+        }
+    }
+}
+@media only screen and (min-width:1121px) and (max-width:1200px) {
+    .shop_information_searchbar_main {
+        width: 62% !important;
+        .shop_information_wrap {
+            gap: 15px !important;
+        }
+    }
+}
+@media only screen and (min-width:1201px) and (max-width:1300px) {
+    .shop_information_searchbar_main {
+        width: 62% !important;
+        .shop_information_wrap {
+            gap: 20px !important;
+        }
+    }
+}
+//!Navbar One For Responsive Ends
