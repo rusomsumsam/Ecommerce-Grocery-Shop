@@ -1,0 +1,22 @@
+//Grocery Shoppy Section Starts
+.grocery_shoppy_main {
+    width: 90%;
+    margin: 70px auto 0 auto;
+    .grocery_shoppy_inner {
+        width: 100%;
+        p {
+            width: 100%;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 28px;
+            span {
+                font-family: "Open Sans", sans-serif;
+                font-weight: 600;
+                color: #302e2e;
+                font-size: 14px;
+            }
+        }
+    }
+}
+//Grocery Shoppy Section Ends
