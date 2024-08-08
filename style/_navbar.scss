@@ -608,3 +608,48 @@
     }  
 }
 //!For Responsive Navbar Ends
+//!For Responsive Search Box Starts
+.searchbar_res_cus {
+    width: 100%;
+    .searchbar_icon_wrap {
+        width: 90%;
+        margin: auto;
+        .searchbar_icon_inner {
+            width: 100%;
+            .searchbar_cus {
+                width: 100%;
+                input {
+                    width: 93%;
+                    height: 50px;
+                    border: 1px solid black;
+                    border-right: none;
+                    padding-left: 10px;
+                    &:focus {
+                        outline: none;
+                    }
+                    &::placeholder {
+                        font-family: "Open Sans", sans-serif;
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .searchbar_icon_cus {
+                width: 8%;
+                background-color: #1accfc;
+                margin-left: -60px;
+                border: none;
+                color: #ffffff;
+                &:hover {
+                    background-color: #ff4d08;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:530px) {
+    .searchbar_icon_cus {
+        width: 20% !important;
+    }
+}
+//!For Responsive Search Box Ends
