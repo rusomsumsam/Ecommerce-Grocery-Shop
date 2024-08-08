@@ -1,0 +1,106 @@
+//Local Store Section Starts
+.local_store_main {
+    width: 100%;
+    height: 300px;
+    background-color: #1c2124;
+    margin-top: 80px;
+    .local_store_inner {
+        width: 90%;
+        margin: auto;
+        .for_txt {
+            .big_txt {
+                p {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 600;
+                    font-size: 28px;
+                    color: #ffffff;
+                }
+            }
+            .small_txt {
+                p {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #ffffff;
+                }
+            }
+        }
+        .for_mail {
+            form {
+                input {
+                    width: 75%;
+                    height: 40px;
+                }
+                button {
+                    width: 20%;
+                    height: 40px;
+                    color: #ffffff;
+                    background-color: #ff5523;
+                    border: none;
+                }
+            }
+        }
+        .for_img {
+            img {
+                height: 300px;
+            }
+        }
+    }
+}
+//Local Store Section Ends
+//!Local Store Section For Responsive Starts
+@media only screen and (max-width:850px) {
+    .local_store_main {
+        height: 438px;
+        .local_store_inner {
+            flex-direction: column !important;
+            margin-top: 30px;
+        }
+    }
+}
+@media only screen and (max-width:689px) {
+    .local_store_main {
+        height: 432px !important;
+        .local_store_inner {
+            .for_txt {
+                width: 100% !important;
+                .big_txt {
+                    p {
+                        font-size: 24px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:591px) {
+    .local_store_main {
+        .local_store_inner {
+            .for_txt {
+                width: 100% !important;
+                .big_txt {
+                    width: 100%;
+                    p {
+                        font-size: 24px !important;
+                    }
+                }
+            }
+            .for_mail {
+                form {
+                    input {
+                        width: 68% !important;
+                    }
+                    button {
+                        width: 30% !important;
+                    }
+                }
+            }
+            .for_img {
+                img { 
+                    height: 264px;
+                }
+            }
+        }
+    }
+}
+//!Local Store Section For Responsive Ends   
