@@ -1,0 +1,19 @@
+//Grocery Offer Zone Text Starts
+.grocery_offer_zone_main {
+    width: 100%;
+    .grocery_offer_zone_inner {
+        width: 100%;
+        background-color: #1accfc;
+        .grocery_offer_zone_txt {
+            width: 100%;
+            p {
+                font-family: "Open Sans", sans-serif;
+                font-weight: 600;
+                color: #ffffff;
+                text-align: center;
+                padding: 10px 0 10px 0;
+            }
+        }
+    }
+}
+//Grocery Offer Zone Text Ends
