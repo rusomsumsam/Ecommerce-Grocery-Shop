@@ -49,3 +49,224 @@
     }
 }
 //Special Offers Title Ends
+//Special Offers Slider Starts
+.special_offers_slider_main {
+    width: 100%;
+    .special_offers_slider_inner {
+        width: 100%;
+        .owl_carousel_slider_two {
+            width: 78%;
+            margin: auto;
+            .special_offers_item_main {
+                width: 99%;
+                border: 1px solid #818181;
+                border-radius: 1%;
+                -webkit-border-radius: 1%;
+                -moz-border-radius: 1%;
+                -ms-border-radius: 1%;
+                -o-border-radius: 1%;
+                .special_offers_item_inner {
+                    width: 100%;
+                    padding: 50px 15px 50px 15px;
+                    .for_img {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 50px;
+                        img {
+                            width: 30%;
+                            height: 120px;
+                        }
+                    }
+                    .for_txt {
+                        .for_name {
+                            p {
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 400;
+                                font-size: 20px;
+                                color: #242222;
+                            }
+                        }
+                        .for_price {
+                            margin-top: -12px;
+                            p {
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 400;
+                                font-size: 20px;
+                                color: #ff5427;
+                            }
+                        }
+                        .for_save {
+                            width: 100%;
+                            height: 40px;
+                            border: 1px solid #5e5d5d;
+                            margin-bottom: 20px;
+                            padding-left: 10px;
+                            p {
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 400;
+                                font-size: 16px;
+                                color: #5e5d5d;
+                                margin-bottom: 0;
+                            }
+                        }
+                        button {
+                            width: 100%;
+                            height: 40px;
+                            background-color: #1accfc;
+                            border: none;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//!For Custom Nav 
+.special_offers_slider_inner {
+    position: relative;
+    #myNavTwo {
+        .owl-prev {
+            position: absolute;
+            top: 47%;
+            left: 6%;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            color: #414141;
+            border: 1px solid #414141;
+        }
+        .owl-next {
+            position: absolute;
+            top: 47%;
+            right: 6%;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            color: #414141;
+            border: 1px solid #414141;
+        }
+    }
+}
+//Special Offers Slider Ends
+//!Special Offers Slider For Responsive Starts
+@media only screen and (max-width:1242px) {
+    .special_offers_item_inner {
+        .for_txt {
+            .for_name {
+                p {
+                    font-size: 18px !important;
+                }
+            }
+            .for_price {
+                p {
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1135px) {
+    .special_offers_item_inner {
+        .for_img {
+            img {
+                width: 30% !important;
+                height: 90px !important;
+            }
+        }
+        .for_txt {
+            .for_name {
+                p {
+                    font-size: 16px !important;
+                }
+            }
+            .for_price {
+                p {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1028px) {
+    .owl_carousel_slider_two {
+        width: 82% !important;
+    }
+}
+@media only screen and (max-width:999px) {
+    .special_offers_item_inner {
+        .for_img {
+            img {
+                width: 20% !important;
+                height: 90px !important;
+            }
+        }
+    }
+    #myNavTwo {
+        .owl-prev {
+            left: 2% !important;
+        }
+        .owl-next {
+            right: 2% !important;
+        }
+    }    
+}
+@media only screen and (max-width:644px) {
+    .owl_carousel_slider_two {
+        width: 90% !important;
+    }
+    .special_offers_item_main {
+        width: 90% !important;
+        margin: auto;
+        .special_offers_item_inner {
+            .for_txt {
+                .for_name {
+                    p {
+                        font-size: 14px !important;
+                    }
+                }
+                .for_price {
+                    p {
+                        font-size: 14px !important;
+                    }
+                }
+                .for_save {
+                    p {
+                        font-size: 14px !important;
+                    }
+                }
+            }
+        }
+    }
+    #myNavTwo {
+        .owl-prev {
+            left: 1% !important;
+        }
+        .owl-next {
+            right: 1% !important;
+        }
+    } 
+}
+@media only screen and (max-width:599px) {
+    .owl_carousel_slider_two {
+        width: 80% !important;
+    }
+    .special_offers_item_inner {
+        .for_img {
+            img {
+                width: 35% !important;
+                height: 125px !important;
+            }
+        }
+    }
+}
+//!Special Offers Slider For Responsive Ends
