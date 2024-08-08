@@ -169,3 +169,86 @@
     }
 }
 //!Navbar One For Responsive Ends
+//Navbar Two Starts
+.navbar_two_main {
+    width: 100%;
+    .navbar_two_inner {
+        width: 100%;
+        .nav_menu_cus {
+            width: 98%;
+            margin: auto;
+            border: 1px solid rgb(194, 191, 191);
+            .nav_menu_cus_one {
+                width: 15%;
+                background-color: #e4e3e3;
+                margin-left: 50px;
+                .all_category_wrap {
+                    width: 100%;
+                    .all_category_wrap_inner {
+                        width: 100%;
+                        .all_category_cus {
+                            width: 86%;
+                            a {
+                                width: 100%;
+                                margin-left: 10px;
+                                color: #000000;
+                                font-family: "Open Sans", sans-serif;
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    top: 50% !important;
+                                    left: 106% !important;
+                                }
+                            }
+                            .dropdown_menu_cus {
+                                position: absolute !important;
+                                a {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-size: 14px !important;
+                                    padding: 0 !important;
+                                    &:hover {
+                                        color: #ff4d08;
+                                    }
+                                }
+                                .dropdown-item:focus, .dropdown-item:hover {
+                                    width: 90% !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .nav_menu_cus_two {
+                width: 80%;
+                .home_cus, .about_us_cus, .faqs_cus, .contact_cus {
+                    a {
+                        font-family: "Open Sans", sans-serif;
+                        text-decoration: none;
+                        color: #000000;
+                        &:hover {
+                            color: #ff4d08;
+                        }                        
+                    }                    
+                }
+                .home_cus {
+                    a.active {
+                        color: #ff4d08;
+                    }
+                }
+                .kitchen_wrap, .household_wrap, .pages_wrap {
+                    a {
+                        font-family: "Open Sans", sans-serif;
+                        color: #000000;
+                        &:hover {
+                            color: #ff4d08;
+                        }
+                    }
+                    .dropdown_menu_cus {
+                        position: absolute !important;
+                    }
+                }
+            }
+        }
+    }
+}
+//Navbar Two Ends
