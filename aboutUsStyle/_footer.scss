@@ -1,0 +1,166 @@
+//Footer Section Starts
+.footer_main {
+    width: 90%;
+    margin: 50px auto 0 auto;
+    .footer_inner {
+        width: 100%;
+        .for_categories {
+            width: 40%;
+            padding-left: 20px;
+            .for_heading {
+                p {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #11cdff;
+                }
+            }
+            .for_item {
+                gap: 90px;
+                .one, .two {
+                    gap: 15px;
+                    a {
+                        font-family: "Open Sans", sans-serif;
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #5e5f5f;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .for_quick_links, .for_get_in_touch, .for_follow_download_wrap {
+            width: 20%;
+            .for_heading {
+                p {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #11cdff;
+                }
+            }
+            .for_item {
+                gap: 15px;
+                a {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #5e5f5f;
+                    text-decoration: none;
+                }
+            }
+        }
+        .for_get_in_touch {
+            .for_item {
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+                    span {
+                        color: #fe5723;
+                    }
+                    p {
+                        font-family: "Open Sans", sans-serif;
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #0a0a0a;
+                        span {
+                            color: #5e5f5f;
+                        }
+                    }
+                }
+            }
+        }
+        .for_follow_download_wrap {
+            gap: 20px;
+            .for_follow {
+                .for_icon {
+                    gap: 15px;
+                    div {
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 100%;
+                        -webkit-border-radius: 100%;
+                        -moz-border-radius: 100%;
+                        -ms-border-radius: 100%;
+                        -o-border-radius: 100%;
+                        color: #ffffff;
+                    }
+                    .fb {
+                        background-color: #6884c2;
+                    }
+                    .twt {
+                        background-color: #03b0cf;
+                    }
+                    .ggl {
+                        background-color: #c73e30;
+                    }                      
+                }
+            }
+            .for_download {
+                .for_download_heading {
+                    p {
+                        font-family: "Open Sans", sans-serif;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #ff4d26; 
+                    }
+                }
+            }
+        }
+    }
+}
+//Footer Section Ends
+//!Footer Section For Responsive Starts
+@media only screen and (max-width:1200px) {
+    .for_categories {
+        .for_item {
+            gap: 50px !important;
+        }
+    }
+}
+@media only screen and (max-width:1000px) {
+    .for_categories {
+        .for_item {
+            gap: 20px !important;
+        }
+    }
+    .for_get_in_touch {
+        .for_item {
+            div {
+                p {
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:934px) {
+    .footer_inner {
+        flex-direction: column !important;
+        .for_categories {
+            width: 100% !important;
+            .for_item {
+                gap: 100px !important;
+            }
+        }
+        .for_quick_links, .for_get_in_touch, .for_follow_download_wrap {
+            width: 100% !important;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    }
+}
+@media only screen and (max-width:424px) {
+    .footer_inner {
+        .for_categories {
+            .for_item {
+                gap: 30px !important;
+            }
+        }
+    }
+}
+//!Footer Section For Responsive Ends
