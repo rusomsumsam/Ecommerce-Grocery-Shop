@@ -1,0 +1,26 @@
+//Online Grocery Shopping Starts
+.online_grocery_shopping_main {
+    width: 90%;
+    margin: 70px auto 0 auto;
+    .online_grocery_shopping_inner {
+        width: 100%;
+        .for_heading {
+            p {
+                font-family: "Open Sans", sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+        .for_txt {
+            p {
+                width: 100%;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                color: rgb(68, 68, 68);
+            }
+        }
+    }
+}
+//Online Grocery Shopping Ends
