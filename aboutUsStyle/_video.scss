@@ -1,0 +1,149 @@
+//Video Section Starts
+.video_main {
+    width: 100%;
+    background-color: #b7e7f3;
+    padding: 50px 50px 70px 50px;
+    .video_inner {
+        width: 100%;
+        .video_title_main {
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            .video_title_txt {
+                width: 100%;
+                p {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 400;
+                    color: #000000;
+                    font-size: 40px;
+                }
+            }
+            .vertical_line {
+                margin-top: -5px;
+                .normal_line {
+                    width: 50px;
+                    height: 1px;
+                    background-color: rgb(126, 121, 121);
+                    margin-top: 6px;
+                }
+                .box_cus {
+                    gap: 6px;
+                    .box_one {
+                        width: 12px;
+                        height: 12px;
+                        background-color: #ff5427;
+                        transform: rotate(45deg);
+                        -webkit-transform: rotate(45deg);
+                        -moz-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        -o-transform: rotate(45deg);
+                    }
+                    .box_two {
+                        width: 13px;
+                        height: 13px;
+                        background-color: #1accfc;
+                        transform: rotate(45deg);
+                        -webkit-transform: rotate(45deg);
+                        -moz-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        -o-transform: rotate(45deg);
+                    }
+                }
+            }
+        }
+        .video_content_main {
+            width: 90%;
+            margin: auto;
+            .video_content_inner {
+                width: 100%;
+                gap: 30px;
+                .for_video {
+                    width: 80%;
+                    height: 400px;
+                    background-color: #000000;
+                    .big_txt {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 500;
+                            font-size: 18px;
+                            color: rgb(255, 255, 255);
+                        }
+                    }
+                    .small_txt {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: rgb(255, 255, 255);
+                        }
+                    }
+                    button {
+                        width: 15%;
+                        height: 40px;
+                        border: none;
+                        border-radius: 5%;
+                        -webkit-border-radius: 5%;
+                        -moz-border-radius: 5%;
+                        -ms-border-radius: 5%;
+                        -o-border-radius: 5%;
+                    }
+                }
+                .for_content {
+                    width: 40%;
+                    .for_img {
+                        img {
+                            width: 75%;
+                        }
+                    }
+                    .big_txt {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 500;
+                            color: #ff5427;
+                            font-size: 28px;
+                        }
+                    }
+                    .small_txt {
+                        p {
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 500;
+                            color: #6d6b6a;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Video Section Ends
+//!Video Section For Responsive Starts
+@media only screen and (max-width:960px) {
+    .video_content_inner {
+        flex-direction: column !important;
+        .for_video {
+            width: 100% !important;
+        }
+        .for_content {
+            margin-left: 30% !important;
+        }
+    }
+    .video_main {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+@media only screen and (max-width:618px) {
+    .video_content_main {
+        width: 100% !important;
+        .for_video {
+            button {
+                width: 30% !important;
+            }
+            .big_txt, .small_txt {
+                padding: 0 10px 0 10px !important;
+            }
+        }
+    }
+}
+//!Video Section For Responsive Ends
