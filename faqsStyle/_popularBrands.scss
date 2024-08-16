@@ -1,0 +1,30 @@
+//Popular Brands Starts
+.popular_brands_main {
+    width: 90%;
+    margin: 50px auto 0 auto;
+    .popular_brands_inner {
+        width: 100%;
+        .for_heading {
+            p {
+                font-family: "Open Sans", sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+        .for_txt {
+            p {
+                width: 100%;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                word-spacing: 15px;
+                color: rgb(68, 68, 68);
+                span {
+                    word-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+//Popular Brands Ends
