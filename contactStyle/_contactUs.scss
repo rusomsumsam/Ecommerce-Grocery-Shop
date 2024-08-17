@@ -1,10 +1,10 @@
 //Contact Us Title Starts
-.contact_us_main {
+.contact_us_title_main {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
 
-    .contact_us_inner {
+    .contact_us_title_inner {
         width: 100%;
 
         .contact_us_title_txt {
@@ -57,34 +57,50 @@
     }
 }
 
-//FAQS Title Section Ends
-//FAQS Section Starts
-.faqs_main {
-    width: 90%;
-    margin: 0 auto 70px auto;
-
-    .faqs_inner {
+//Contact Us Title Ends
+//Contact Us Starts
+.contact_us_main {
+    width: 70%;
+    margin: 0 auto 80px auto;
+    box-shadow: 5px 0 10px -5px rgba(0, 0, 0, 0.3),
+    -5px 0 10px -5px rgba(0, 0, 0, 0.3),
+    0 5px 10px -5px rgba(0, 0, 0, 0.3),
+    0 -5px 10px -5px rgba(0, 0, 0, 0.3);
+    .contact_us_inner {
         width: 100%;
-
-        .faqs_heading {
-            p {
-                font-family: "Open Sans", sans-serif;
-                font-weight: 500;
-                color: #fe5723;
-                font-size: 28px;
-            }
-        }
-
-        .faqs_questions {
-            gap: 30px;
-
-            a {
-                font-family: "Open Sans", sans-serif;
-                font-weight: 500;
-                color: #6e64f5;
-                font-size: 16px;
-                text-decoration: none;
+        padding: 40px 0 40px 0;
+        .name_sub_mail_message_wrap {
+            width: 90%;
+            margin: auto;
+            form {
+                gap: 20px;
+                .for_name, .for_sub, .for_mail {
+                    width: 100%;
+                    input {
+                        width: 100%;
+                        height: 50px;
+                        border: 1px solid #d8d6d6;
+                        padding-left: 10px;
+                    }
+                }
+                .for_message {
+                    width: 100%;
+                    #message {
+                        width: 100%;
+                        height: 150px;
+                        border: 1px solid #d8d6d6;
+                        padding-left: 10px;
+                    }    
+                }
+                button {
+                    width: 120px;
+                    height: 50px;
+                    background-color: #ff5427;
+                    color: #ffffff;
+                    border: none;
+                }
             }
         }
     }
 }
+//Contact Us Ends
