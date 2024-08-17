@@ -104,3 +104,42 @@
     }
 }
 //Contact Us Ends
+//Get In Touch Starts
+.get_in_touch_main {
+    width: 80%;
+    margin: 0 auto 100px auto;
+    .get_in_touch_inner {
+        width: 100%;
+        .for_heading {
+                p {
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 400;
+                    font-size: 40px;
+                    color: #fe5723;
+                }
+            }
+        .for_item {
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+        
+                    span {
+                        color: #11cdff;
+                    }
+        
+                    p {
+                        font-family: "Open Sans", sans-serif;
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: #0a0a0a;
+                        word-spacing: 10px;
+        
+                        span {
+                            color: #fe5723;
+                        }
+                    }
+                }
+            }
+    }
+}
