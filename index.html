@@ -40,7 +40,7 @@
                     <a href=""><span>G</span>rocery <span>S</span>hoppy</a>
                 </div>
                 <div class="responsive_navbar_item d-flex justify-content-end">
-                    <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><i class="fa-solid fa-location-dot"></i></a>
                     <a href="#"><i class="fa-solid fa-truck"></i></a>
                     <a href="#"><i class="fa-solid fa-phone"></i></a>
                     <a href="#"><i class="fa-solid fa-user"></i></a>
@@ -331,12 +331,157 @@
                     <div class="shop_information_wrap d-flex flex-row">
                         <div class="shop_locator">
                             <div class="icon_cus">
-                                <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" href=""><i class="fa-solid fa-location-dot"></i></a>
                             </div>
                             <div class="txt_cus">
-                                <a href="">Shop Locator</a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Shop Locator</a>
                             </div>
                         </div>
+                        <!--For Modal Starts-->
+                        <div class="modal fade for_shop_locator" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                <div class="modal-content for_modal_content">
+                                    <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>    
+                                    <div class="modal-body for_modal_body">
+                                        <div class="for_heading">
+                                            <p>Please Select Your Location</p>
+                                        </div>
+                                        <div class="for_content">
+                                            <select>
+                                                <option disabled selected class="select_city">Select City</option>
+                                                <optgroup label="Popular Cities">
+                                                    <option value="Birmingham">Birmingham</option>
+                                                    <option value="Anchorage">Anchorage</option>
+                                                    <option value="Phoenix">Phoenix</option>
+                                                    <option value="Little Rock">Little Rock</option>
+                                                    <option value="Los Angeles">Los Angeles</option>
+                                                    <option value="Denver">Denver</option>
+                                                    <option value="Bridgeport">Bridgeport</option>
+                                                    <option value="Wilmington">Wilmington</option>
+                                                    <option value="Jacksonville">Jacksonville</option>
+                                                    <option value="Atlanta">Atlanta</option>
+                                                    <option value="Honolulu">Honolulu</option>
+                                                    <option value="Boise">Boise</option>
+                                                    <option value="Chicago">Chicago</option>
+                                                    <option value="Indianapolis">Indianapolis</option>
+                                                </optgroup>
+                                                <optgroup label="Alabama">
+                                                    <option value="Birmingham">Birmingham</option>
+                                                    <option value="Montgomery">Montgomery</option>
+                                                    <option value="Mobile">Mobile</option>
+                                                    <option value="Huntsville">Huntsville</option>
+                                                    <option value="Tuscaloosa">Tuscaloosa</option>
+                                                    <option value="Hoover">Hoover</option>
+                                                    <option value="Dothan">Dothan</option>
+                                                    <option value="Auburn">Auburn</option>
+                                                    <option value="Decatur">Decatur</option>
+                                                    <option value="Madison">Madison</option>
+                                                    <option value="Florence">Florence</option>
+                                                    <option value="Gadsden">Gadsden</option>
+                                                </optgroup>
+                                                <optgroup label="Alaska">
+                                                    <option value="Anchorage">Anchorage</option>
+                                                    <option value="Fairbanks">Fairbanks</option>
+                                                    <option value="Juneau">Juneau</option>
+                                                    <option value="Sitka">Sitka</option>
+                                                    <option value="Ketchikan">Ketchikan</option>
+                                                    <option value="Wasilla">Wasilla</option>
+                                                    <option value="Kenai">Kenai</option>
+                                                    <option value="Kodiak">Kodiak</option>
+                                                    <option value="Bethel">Bethel</option>
+                                                    <option value="Palmer">Palmer</option>
+                                                </optgroup>
+                                                <optgroup label="Arizona">
+                                                    <option value="Phoenix">Phoenix</option>
+                                                    <option value="Tucson">Tucson</option>
+                                                    <option value="Mesa">Mesa</option>
+                                                    <option value="Chandler">Chandler</option>
+                                                    <option value="Glendale">Glendale</option>
+                                                    <option value="Scottsdale">Scottsdale</option>
+                                                    <option value="Gilbert">Gilbert</option>
+                                                    <option value="Tempe">Tempe</option>
+                                                    <option value="Peoria">Peoria</option>
+                                                    <option value="Surprise">Surprise</option>
+                                                    <option value="Yuma">Yuma</option>
+                                                    <option value="Avondale">Avondale</option>
+                                                    <option value="Flagstaff">Flagstaff</option>
+                                                    <option value="Goodyear">Goodyear</option>
+                                                    <option value="Lake Havasu City">Lake Havasu City</option>
+                                                </optgroup>
+                                                <optgroup label="Arkansas">
+                                                    <option value="Little Rock">Little Rock</option>
+                                                    <option value="Fort Smith">Fort Smith</option>
+                                                    <option value="Fayetteville">Fayetteville</option>
+                                                    <option value="Springdale">Springdale</option>
+                                                    <option value="Jonesboro">Jonesboro</option>
+                                                    <option value="Rogers">Rogers</option>
+                                                    <option value="North Little Rock">North Little Rock</option>
+                                                    <option value="Conway">Conway</option>
+                                                    <option value="Bentonville">Bentonville</option>
+                                                    <option value="Pine Bluff">Pine Bluff</option>
+                                                    <option value="Hot Springs">Hot Springs</option>
+                                                    <option value="Benton">Benton</option>
+                                                    <option value="Texarkana">Texarkana</option>
+                                                    <option value="Sherwood">Sherwood</option>
+                                                    <option value="Jacksonville">Jacksonville</option>
+                                                </optgroup>
+                                                <optgroup label="California">
+                                                    <option value="Los Angeles">Los Angeles</option>
+                                                    <option value="San Diego">San Diego</option>
+                                                    <option value="San Jose">San Jose</option>
+                                                    <option value="San Francisco">San Francisco</option>
+                                                    <option value="Fresno">Fresno</option>
+                                                    <option value="Sacramento">Sacramento</option>
+                                                    <option value="Long Beach">Long Beach</option>
+                                                    <option value="Oakland">Oakland</option>
+                                                    <option value="Bakersfield">Bakersfield</option>
+                                                    <option value="Anaheim">Anaheim</option>
+                                                    <option value="Santa Ana">Santa Ana</option>
+                                                    <option value="Riverside">Riverside</option>
+                                                    <option value="Stockton">Stockton</option>
+                                                    <option value="Chula Vista">Chula Vista</option>
+                                                    <option value="Irvine">Irvine</option>
+                                                    <option value="Fremont">Fremont</option>
+                                                    <option value="San Bernardino">San Bernardino</option>
+                                                    <option value="Modesto">Modesto</option>
+                                                    <option value="Fontana">Fontana</option>
+                                                    <option value="Oxnard">Oxnard</option>
+                                                    <option value="Moreno Valley">Moreno Valley</option>
+                                                    <option value="Huntington Beach">Huntington Beach</option>
+                                                </optgroup>
+                                                <optgroup label="Florida">
+                                                    <option value="Jacksonville">Jacksonville</option>
+                                                    <option value="Miami">Miami</option>
+                                                    <option value="Tampa">Tampa</option>
+                                                    <option value="Orlando">Orlando</option>
+                                                    <option value="St. Petersburg">St. Petersburg</option>
+                                                    <option value="Hialeah">Hialeah</option>
+                                                    <option value="Tallahassee">Tallahassee</option>
+                                                    <option value="Fort Lauderdale">Fort Lauderdale</option>
+                                                    <option value="Port St. Lucie">Port St. Lucie</option>
+                                                    <option value="Cape Coral">Cape Coral</option>
+                                                    <option value="Pembroke Pines">Pembroke Pines</option>
+                                                    <option value="Hollywood">Hollywood</option>
+                                                    <option value="Miramar">Miramar</option>
+                                                    <option value="Gainesville">Gainesville</option>
+                                                    <option value="Coral Springs">Coral Springs</option>
+                                                    <option value="Clearwater">Clearwater</option>
+                                                    <option value="Miami Gardens">Miami Gardens</option>
+                                                    <option value="Palm Bay">Palm Bay</option>
+                                                    <option value="West Palm Beach">West Palm Beach</option>
+                                                    <option value="Pompano Beach">Pompano Beach</option>
+                                                    <option value="Lakeland">Lakeland</option>
+                                                </optgroup>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--For Modal Ends-->
                         <div class="horizontal_line"></div>
                         <div class="track_order">
                             <div class="icon_cus">
