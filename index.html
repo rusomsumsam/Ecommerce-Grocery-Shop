@@ -43,7 +43,7 @@
                     <a data-bs-toggle="modal" data-bs-target="#exampleModalTwo" href="#"><i class="fa-solid fa-location-dot"></i></a>
                     <a data-bs-toggle="modal" data-bs-target="#exampleModalFour" href="#"><i class="fa-solid fa-truck"></i></a>
                     <a href="#"><i class="fa-solid fa-phone"></i></a>
-                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUpTwo" href="#"><i class="fa-solid fa-user"></i></a>
                     <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
                 </div>
                 <!--!For Shop Locator Modal Starts-->
@@ -224,6 +224,44 @@
                     </div>
                 </div>
                 <!--!Track Order For Modal Ends-->
+                <!--!Sign Up For Modal Starts-->
+                <div class="modal fade for_track_order" id="exampleModalSignUpTwo" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                        <div class="modal-content for_modal_content">
+                            <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body for_modal_body">
+                                <div class="for_heading">
+                                    <p>SIGN UP</p>
+                                </div>
+                                <div class="for_content">
+                                    <div class="for_txt">
+                                        <p>Come join the Grocery Shoppy! Let's set up your account.
+                                        </p>
+                                    </div>
+                                    <form class="d-flex flex-column">
+                                        <div class="form_group">
+                                            <input type="text" id="username" placeholder="User Name">
+                                        </div>
+                                        <div class="form_group">
+                                            <input type="email" id="email" placeholder="E-mail">
+                                        </div>
+                                        <div class="form_group">
+                                            <input type="password" id="password" placeholder="Password">
+                                        </div>
+                                        <div class="form_group">
+                                            <input type="password" id="password" placeholder="Confirm Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--!Sign Up For Modal Ends-->
                 <div class="offcanvas offcanvas-start ham_menu_cus" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                     <div class="offcanvas-header ham_menu_cus_header">
                     <a class="home_btn_hamburger" href="#"><i class="fa-solid fa-house"></i></a>
@@ -663,7 +701,7 @@
                         <div class="horizontal_line"></div>
                         <div class="track_order">
                             <div class="icon_cus">
-                                <a href=""><i class="fa-solid fa-truck"></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href=""><i class="fa-solid fa-truck"></i></a>
                             </div>
                             <div class="txt_cus">
                                 <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href="">Track Order</a>
@@ -713,21 +751,59 @@
                         <div class="horizontal_line"></div>
                         <div class="sign_in">
                             <div class="icon_cus">
-                                <a href=""><i class="fa-solid fa-unlock"></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href=""><i class="fa-solid fa-unlock"></i></a>
                             </div>
                             <div class="txt_cus">
-                                <a href="">Sign in</a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href="">Sign in</a>
                             </div>
                         </div>
                         <div class="horizontal_line"></div>
                         <div class="sign_up">
                             <div class="icon_cus">
-                                <a href=""><i class="fa-solid fa-pen-to-square"></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUp" href=""><i class="fa-solid fa-pen-to-square"></i></a>
                             </div>
                             <div class="txt_cus">
-                                <a href="">Sign up</a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUp" href="">Sign up</a>
                             </div>
                         </div>
+                        <!--!Sign Up For Modal Starts-->
+                        <div class="modal fade for_track_order" id="exampleModalSignUp" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                <div class="modal-content for_modal_content">
+                                    <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body for_modal_body">
+                                        <div class="for_heading">
+                                            <p>SIGN UP</p>
+                                        </div>
+                                        <div class="for_content">
+                                            <div class="for_txt">
+                                                <p>Come join the Grocery Shoppy! Let's set up your account.
+                                                </p>
+                                            </div>
+                                            <form class="d-flex flex-column">
+                                                <div class="form_group">
+                                                    <input type="text" id="username" placeholder="User Name">
+                                                </div>
+                                                <div class="form_group">
+                                                    <input type="email" id="email" placeholder="E-mail">
+                                                </div>
+                                                <div class="form_group">
+                                                    <input type="password" id="password" placeholder="Password">
+                                                </div>
+                                                <div class="form_group">
+                                                    <input type="password" id="password" placeholder="Confirm Password">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--!Sign Up For Modal Ends-->
                         <div class="horizontal_line"></div>
                     </div>
                     <div class="searchbar_shopcart_wrap d-flex">
