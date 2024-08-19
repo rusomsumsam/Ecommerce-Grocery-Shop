@@ -41,12 +41,12 @@
                 </div>
                 <div class="responsive_navbar_item d-flex justify-content-end">
                     <a data-bs-toggle="modal" data-bs-target="#exampleModalTwo" href="#"><i class="fa-solid fa-location-dot"></i></a>
-                    <a href="#"><i class="fa-solid fa-truck"></i></a>
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModalFour" href="#"><i class="fa-solid fa-truck"></i></a>
                     <a href="#"><i class="fa-solid fa-phone"></i></a>
                     <a href="#"><i class="fa-solid fa-user"></i></a>
                     <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
                 </div>
-                <!--For Shop Locator Modal Starts-->
+                <!--!For Shop Locator Modal Starts-->
                 <div class="modal fade for_shop_locator" id="exampleModalTwo" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered for_modal_dialog">
@@ -190,7 +190,40 @@
                         </div>
                     </div>
                 </div>
-                <!--For Shop Locator Modal Ends-->
+                <!--!For Shop Locator Modal Ends-->
+                <!--!Track Order For Modal Starts-->
+                <div class="modal fade for_track_order" id="exampleModalFour" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                        <div class="modal-content for_modal_content">
+                            <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body for_modal_body">
+                                <div class="for_heading">
+                                    <p>SIGN IN</p>
+                                </div>
+                                <div class="for_content">
+                                    <div class="for_txt">
+                                        <p>Sign in now, Let's start your Grocery Shopping. Don't have an account?
+                                            <a href="#">Sign Up Now</a>
+                                        </p>
+                                    </div>
+                                    <form class="d-flex flex-column">
+                                        <div class="form_group">
+                                            <input type="text" id="username" placeholder="User Name">
+                                        </div>
+                                        <div class="form_group">
+                                            <input type="password" id="password" placeholder="Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--!Track Order For Modal Ends-->
                 <div class="offcanvas offcanvas-start ham_menu_cus" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                     <div class="offcanvas-header ham_menu_cus_header">
                     <a class="home_btn_hamburger" href="#"><i class="fa-solid fa-house"></i></a>
@@ -444,7 +477,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
         </nav>
     </section>
     <!--!For Responsive Navbar Ends-->
@@ -482,7 +515,7 @@
                                 <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Shop Locator</a>
                             </div>
                         </div>
-                        <!--For Modal Starts-->
+                        <!--!Shop Locator For Modal Starts-->
                         <div class="modal fade for_shop_locator" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered for_modal_dialog">
@@ -626,16 +659,48 @@
                                 </div>
                             </div>
                         </div>
-                        <!--For Modal Ends-->
+                        <!--!Shop Locator For Modal Ends-->
                         <div class="horizontal_line"></div>
                         <div class="track_order">
                             <div class="icon_cus">
                                 <a href=""><i class="fa-solid fa-truck"></i></a>
                             </div>
                             <div class="txt_cus">
-                                <a href="">Track Order</a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href="">Track Order</a>
                             </div>
                         </div>
+                        <!--!Track Order For Modal Starts-->
+                        <div class="modal fade for_track_order" id="exampleModalThree" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                <div class="modal-content for_modal_content">
+                                    <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body for_modal_body">
+                                        <div class="for_heading">
+                                            <p>SIGN IN</p>
+                                        </div>
+                                        <div class="for_content">
+                                            <div class="for_txt">
+                                                <p>Sign in now, Let's start your Grocery Shopping. Don't have an account?
+                                                <a href="#">Sign Up Now</a></p>
+                                            </div>
+                                            <form class="d-flex flex-column">
+                                                <div class="form_group">
+                                                    <input type="text" id="username" placeholder="User Name">
+                                                </div>
+                                                <div class="form_group">
+                                                    <input type="password" id="password" placeholder="Password">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--!Track Order For Modal Ends-->
                         <div class="horizontal_line"></div>
                         <div class="phn_no">
                             <div class="icon_cus">
