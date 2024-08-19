@@ -53,8 +53,8 @@
                 <div class="res_navbar_inner">
                     <div class="hamburger_btn">
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" aria-expanded="false"
+                            aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
@@ -62,12 +62,231 @@
                         <a href=""><span>G</span>rocery <span>S</span>hoppy</a>
                     </div>
                     <div class="responsive_navbar_item d-flex justify-content-end">
-                        <a href="#"><i class="fa-solid fa-location-dot"></i></a>
-                        <a href="#"><i class="fa-solid fa-truck"></i></a>
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModalTwo" href="#"><i
+                                class="fa-solid fa-location-dot"></i></a>
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModalFour" href="#"><i
+                                class="fa-solid fa-truck"></i></a>
                         <a href="#"><i class="fa-solid fa-phone"></i></a>
-                        <a href="#"><i class="fa-solid fa-user"></i></a>
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUpTwo" href="#"><i
+                                class="fa-solid fa-user"></i></a>
                         <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
                     </div>
+                    <!--!For Shop Locator Modal Starts-->
+                    <div class="modal fade for_shop_locator" id="exampleModalTwo" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                            <div class="modal-content for_modal_content">
+                                <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body for_modal_body">
+                                    <div class="for_heading">
+                                        <p>Please Select Your Location</p>
+                                    </div>
+                                    <div class="for_content">
+                                        <select>
+                                            <option disabled selected class="select_city">Select City</option>
+                                            <optgroup label="Popular Cities">
+                                                <option value="Birmingham">Birmingham</option>
+                                                <option value="Anchorage">Anchorage</option>
+                                                <option value="Phoenix">Phoenix</option>
+                                                <option value="Little Rock">Little Rock</option>
+                                                <option value="Los Angeles">Los Angeles</option>
+                                                <option value="Denver">Denver</option>
+                                                <option value="Bridgeport">Bridgeport</option>
+                                                <option value="Wilmington">Wilmington</option>
+                                                <option value="Jacksonville">Jacksonville</option>
+                                                <option value="Atlanta">Atlanta</option>
+                                                <option value="Honolulu">Honolulu</option>
+                                                <option value="Boise">Boise</option>
+                                                <option value="Chicago">Chicago</option>
+                                                <option value="Indianapolis">Indianapolis</option>
+                                            </optgroup>
+                                            <optgroup label="Alabama">
+                                                <option value="Birmingham">Birmingham</option>
+                                                <option value="Montgomery">Montgomery</option>
+                                                <option value="Mobile">Mobile</option>
+                                                <option value="Huntsville">Huntsville</option>
+                                                <option value="Tuscaloosa">Tuscaloosa</option>
+                                                <option value="Hoover">Hoover</option>
+                                                <option value="Dothan">Dothan</option>
+                                                <option value="Auburn">Auburn</option>
+                                                <option value="Decatur">Decatur</option>
+                                                <option value="Madison">Madison</option>
+                                                <option value="Florence">Florence</option>
+                                                <option value="Gadsden">Gadsden</option>
+                                            </optgroup>
+                                            <optgroup label="Alaska">
+                                                <option value="Anchorage">Anchorage</option>
+                                                <option value="Fairbanks">Fairbanks</option>
+                                                <option value="Juneau">Juneau</option>
+                                                <option value="Sitka">Sitka</option>
+                                                <option value="Ketchikan">Ketchikan</option>
+                                                <option value="Wasilla">Wasilla</option>
+                                                <option value="Kenai">Kenai</option>
+                                                <option value="Kodiak">Kodiak</option>
+                                                <option value="Bethel">Bethel</option>
+                                                <option value="Palmer">Palmer</option>
+                                            </optgroup>
+                                            <optgroup label="Arizona">
+                                                <option value="Phoenix">Phoenix</option>
+                                                <option value="Tucson">Tucson</option>
+                                                <option value="Mesa">Mesa</option>
+                                                <option value="Chandler">Chandler</option>
+                                                <option value="Glendale">Glendale</option>
+                                                <option value="Scottsdale">Scottsdale</option>
+                                                <option value="Gilbert">Gilbert</option>
+                                                <option value="Tempe">Tempe</option>
+                                                <option value="Peoria">Peoria</option>
+                                                <option value="Surprise">Surprise</option>
+                                                <option value="Yuma">Yuma</option>
+                                                <option value="Avondale">Avondale</option>
+                                                <option value="Flagstaff">Flagstaff</option>
+                                                <option value="Goodyear">Goodyear</option>
+                                                <option value="Lake Havasu City">Lake Havasu City</option>
+                                            </optgroup>
+                                            <optgroup label="Arkansas">
+                                                <option value="Little Rock">Little Rock</option>
+                                                <option value="Fort Smith">Fort Smith</option>
+                                                <option value="Fayetteville">Fayetteville</option>
+                                                <option value="Springdale">Springdale</option>
+                                                <option value="Jonesboro">Jonesboro</option>
+                                                <option value="Rogers">Rogers</option>
+                                                <option value="North Little Rock">North Little Rock</option>
+                                                <option value="Conway">Conway</option>
+                                                <option value="Bentonville">Bentonville</option>
+                                                <option value="Pine Bluff">Pine Bluff</option>
+                                                <option value="Hot Springs">Hot Springs</option>
+                                                <option value="Benton">Benton</option>
+                                                <option value="Texarkana">Texarkana</option>
+                                                <option value="Sherwood">Sherwood</option>
+                                                <option value="Jacksonville">Jacksonville</option>
+                                            </optgroup>
+                                            <optgroup label="California">
+                                                <option value="Los Angeles">Los Angeles</option>
+                                                <option value="San Diego">San Diego</option>
+                                                <option value="San Jose">San Jose</option>
+                                                <option value="San Francisco">San Francisco</option>
+                                                <option value="Fresno">Fresno</option>
+                                                <option value="Sacramento">Sacramento</option>
+                                                <option value="Long Beach">Long Beach</option>
+                                                <option value="Oakland">Oakland</option>
+                                                <option value="Bakersfield">Bakersfield</option>
+                                                <option value="Anaheim">Anaheim</option>
+                                                <option value="Santa Ana">Santa Ana</option>
+                                                <option value="Riverside">Riverside</option>
+                                                <option value="Stockton">Stockton</option>
+                                                <option value="Chula Vista">Chula Vista</option>
+                                                <option value="Irvine">Irvine</option>
+                                                <option value="Fremont">Fremont</option>
+                                                <option value="San Bernardino">San Bernardino</option>
+                                                <option value="Modesto">Modesto</option>
+                                                <option value="Fontana">Fontana</option>
+                                                <option value="Oxnard">Oxnard</option>
+                                                <option value="Moreno Valley">Moreno Valley</option>
+                                                <option value="Huntington Beach">Huntington Beach</option>
+                                            </optgroup>
+                                            <optgroup label="Florida">
+                                                <option value="Jacksonville">Jacksonville</option>
+                                                <option value="Miami">Miami</option>
+                                                <option value="Tampa">Tampa</option>
+                                                <option value="Orlando">Orlando</option>
+                                                <option value="St. Petersburg">St. Petersburg</option>
+                                                <option value="Hialeah">Hialeah</option>
+                                                <option value="Tallahassee">Tallahassee</option>
+                                                <option value="Fort Lauderdale">Fort Lauderdale</option>
+                                                <option value="Port St. Lucie">Port St. Lucie</option>
+                                                <option value="Cape Coral">Cape Coral</option>
+                                                <option value="Pembroke Pines">Pembroke Pines</option>
+                                                <option value="Hollywood">Hollywood</option>
+                                                <option value="Miramar">Miramar</option>
+                                                <option value="Gainesville">Gainesville</option>
+                                                <option value="Coral Springs">Coral Springs</option>
+                                                <option value="Clearwater">Clearwater</option>
+                                                <option value="Miami Gardens">Miami Gardens</option>
+                                                <option value="Palm Bay">Palm Bay</option>
+                                                <option value="West Palm Beach">West Palm Beach</option>
+                                                <option value="Pompano Beach">Pompano Beach</option>
+                                                <option value="Lakeland">Lakeland</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--!For Shop Locator Modal Ends-->
+                    <!--!Track Order For Modal Starts-->
+                    <div class="modal fade for_track_order" id="exampleModalFour" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                            <div class="modal-content for_modal_content">
+                                <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body for_modal_body">
+                                    <div class="for_heading">
+                                        <p>SIGN IN</p>
+                                    </div>
+                                    <div class="for_content">
+                                        <div class="for_txt">
+                                            <p>Sign in now, Let's start your Grocery Shopping. Don't have an account?
+                                                <a href="#">Sign Up Now</a>
+                                            </p>
+                                        </div>
+                                        <form class="d-flex flex-column">
+                                            <div class="form_group">
+                                                <input type="text" id="username" placeholder="User Name">
+                                            </div>
+                                            <div class="form_group">
+                                                <input type="password" id="password" placeholder="Password">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--!Track Order For Modal Ends-->
+                    <!--!Sign Up For Modal Starts-->
+                    <div class="modal fade for_track_order" id="exampleModalSignUpTwo" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                            <div class="modal-content for_modal_content">
+                                <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body for_modal_body">
+                                    <div class="for_heading">
+                                        <p>SIGN UP</p>
+                                    </div>
+                                    <div class="for_content">
+                                        <div class="for_txt">
+                                            <p>Come join the Grocery Shoppy! Let's set up your account.
+                                            </p>
+                                        </div>
+                                        <form class="d-flex flex-column">
+                                            <div class="form_group">
+                                                <input type="text" id="username" placeholder="User Name">
+                                            </div>
+                                            <div class="form_group">
+                                                <input type="email" id="email" placeholder="E-mail">
+                                            </div>
+                                            <div class="form_group">
+                                                <input type="password" id="password" placeholder="Password">
+                                            </div>
+                                            <div class="form_group">
+                                                <input type="password" id="password" placeholder="Confirm Password">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--!Sign Up For Modal Ends-->
                     <div class="offcanvas offcanvas-start ham_menu_cus" data-bs-scroll="true" data-bs-backdrop="false"
                         tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                         <div class="offcanvas-header ham_menu_cus_header">
@@ -75,8 +294,7 @@
                             <div class="res_navbar_logo">
                                 <a href=""><span>G</span>rocery <span>S</span>hoppy</a>
                             </div>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body ham_menu_cus_body">
                             <div class="all_category_for_hamburger_menu">
@@ -85,7 +303,6 @@
                                     <span><i class="fa-solid fa-chevron-right"></i></span>
                                 </div>
                                 <div class="all_category_item d-flex flex-column">
-
                                     <div>
                                         <img src="image/kitchen.webp" alt="">
                                         <a href="#">Kitchen</a>
@@ -132,7 +349,7 @@
                                     </div>
                                 </div>
                                 <div class="home_cus">
-                                    <a href="index.html">Home</a>
+                                    <a class="active" href="index.html">Home</a>
                                 </div>
                                 <div class="about_us_cus">
                                     <a href="aboutUs.html">About Us</a>
@@ -140,9 +357,8 @@
                                 <div class="accordion kitchen_cus" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 Kitchen
                                             </button>
                                         </h2>
@@ -213,8 +429,8 @@
                                     <div class="accordion-item household_cus_item">
                                         <h2 class="accordion-header household_cus_header">
                                             <button class="accordion-button collapsed household_cus_btn" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
                                                 Household
                                             </button>
                                         </h2>
@@ -288,8 +504,8 @@
                                     <div class="accordion-item pages_cus_item">
                                         <h2 class="accordion-header pages_cus_header">
                                             <button class="accordion-button collapsed pages_cus_btn" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                aria-expanded="false" aria-controls="collapseFour">
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                                aria-controls="collapseFour">
                                                 Pages
                                             </button>
                                         </h2>
@@ -309,7 +525,7 @@
                                     </div>
                                 </div>
                                 <div class="contact_cus">
-                                    <a class="active" href="contact.html">Contact</a>
+                                    <a href="contact.html">Contact</a>
                                 </div>
                                 <div class="general_information_cus">
                                     <div class="general_cus d-flex">
@@ -365,21 +581,203 @@
                         <div class="shop_information_wrap d-flex flex-row">
                             <div class="shop_locator">
                                 <div class="icon_cus">
-                                    <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" href=""><i
+                                            class="fa-solid fa-location-dot"></i></a>
                                 </div>
                                 <div class="txt_cus">
-                                    <a href="">Shop Locator</a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Shop Locator</a>
                                 </div>
                             </div>
+                            <!--!Shop Locator For Modal Starts-->
+                            <div class="modal fade for_shop_locator" id="exampleModal" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                    <div class="modal-content for_modal_content">
+                                        <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body for_modal_body">
+                                            <div class="for_heading">
+                                                <p>Please Select Your Location</p>
+                                            </div>
+                                            <div class="for_content">
+                                                <select>
+                                                    <option disabled selected class="select_city">Select City</option>
+                                                    <optgroup label="Popular Cities">
+                                                        <option value="Birmingham">Birmingham</option>
+                                                        <option value="Anchorage">Anchorage</option>
+                                                        <option value="Phoenix">Phoenix</option>
+                                                        <option value="Little Rock">Little Rock</option>
+                                                        <option value="Los Angeles">Los Angeles</option>
+                                                        <option value="Denver">Denver</option>
+                                                        <option value="Bridgeport">Bridgeport</option>
+                                                        <option value="Wilmington">Wilmington</option>
+                                                        <option value="Jacksonville">Jacksonville</option>
+                                                        <option value="Atlanta">Atlanta</option>
+                                                        <option value="Honolulu">Honolulu</option>
+                                                        <option value="Boise">Boise</option>
+                                                        <option value="Chicago">Chicago</option>
+                                                        <option value="Indianapolis">Indianapolis</option>
+                                                    </optgroup>
+                                                    <optgroup label="Alabama">
+                                                        <option value="Birmingham">Birmingham</option>
+                                                        <option value="Montgomery">Montgomery</option>
+                                                        <option value="Mobile">Mobile</option>
+                                                        <option value="Huntsville">Huntsville</option>
+                                                        <option value="Tuscaloosa">Tuscaloosa</option>
+                                                        <option value="Hoover">Hoover</option>
+                                                        <option value="Dothan">Dothan</option>
+                                                        <option value="Auburn">Auburn</option>
+                                                        <option value="Decatur">Decatur</option>
+                                                        <option value="Madison">Madison</option>
+                                                        <option value="Florence">Florence</option>
+                                                        <option value="Gadsden">Gadsden</option>
+                                                    </optgroup>
+                                                    <optgroup label="Alaska">
+                                                        <option value="Anchorage">Anchorage</option>
+                                                        <option value="Fairbanks">Fairbanks</option>
+                                                        <option value="Juneau">Juneau</option>
+                                                        <option value="Sitka">Sitka</option>
+                                                        <option value="Ketchikan">Ketchikan</option>
+                                                        <option value="Wasilla">Wasilla</option>
+                                                        <option value="Kenai">Kenai</option>
+                                                        <option value="Kodiak">Kodiak</option>
+                                                        <option value="Bethel">Bethel</option>
+                                                        <option value="Palmer">Palmer</option>
+                                                    </optgroup>
+                                                    <optgroup label="Arizona">
+                                                        <option value="Phoenix">Phoenix</option>
+                                                        <option value="Tucson">Tucson</option>
+                                                        <option value="Mesa">Mesa</option>
+                                                        <option value="Chandler">Chandler</option>
+                                                        <option value="Glendale">Glendale</option>
+                                                        <option value="Scottsdale">Scottsdale</option>
+                                                        <option value="Gilbert">Gilbert</option>
+                                                        <option value="Tempe">Tempe</option>
+                                                        <option value="Peoria">Peoria</option>
+                                                        <option value="Surprise">Surprise</option>
+                                                        <option value="Yuma">Yuma</option>
+                                                        <option value="Avondale">Avondale</option>
+                                                        <option value="Flagstaff">Flagstaff</option>
+                                                        <option value="Goodyear">Goodyear</option>
+                                                        <option value="Lake Havasu City">Lake Havasu City</option>
+                                                    </optgroup>
+                                                    <optgroup label="Arkansas">
+                                                        <option value="Little Rock">Little Rock</option>
+                                                        <option value="Fort Smith">Fort Smith</option>
+                                                        <option value="Fayetteville">Fayetteville</option>
+                                                        <option value="Springdale">Springdale</option>
+                                                        <option value="Jonesboro">Jonesboro</option>
+                                                        <option value="Rogers">Rogers</option>
+                                                        <option value="North Little Rock">North Little Rock</option>
+                                                        <option value="Conway">Conway</option>
+                                                        <option value="Bentonville">Bentonville</option>
+                                                        <option value="Pine Bluff">Pine Bluff</option>
+                                                        <option value="Hot Springs">Hot Springs</option>
+                                                        <option value="Benton">Benton</option>
+                                                        <option value="Texarkana">Texarkana</option>
+                                                        <option value="Sherwood">Sherwood</option>
+                                                        <option value="Jacksonville">Jacksonville</option>
+                                                    </optgroup>
+                                                    <optgroup label="California">
+                                                        <option value="Los Angeles">Los Angeles</option>
+                                                        <option value="San Diego">San Diego</option>
+                                                        <option value="San Jose">San Jose</option>
+                                                        <option value="San Francisco">San Francisco</option>
+                                                        <option value="Fresno">Fresno</option>
+                                                        <option value="Sacramento">Sacramento</option>
+                                                        <option value="Long Beach">Long Beach</option>
+                                                        <option value="Oakland">Oakland</option>
+                                                        <option value="Bakersfield">Bakersfield</option>
+                                                        <option value="Anaheim">Anaheim</option>
+                                                        <option value="Santa Ana">Santa Ana</option>
+                                                        <option value="Riverside">Riverside</option>
+                                                        <option value="Stockton">Stockton</option>
+                                                        <option value="Chula Vista">Chula Vista</option>
+                                                        <option value="Irvine">Irvine</option>
+                                                        <option value="Fremont">Fremont</option>
+                                                        <option value="San Bernardino">San Bernardino</option>
+                                                        <option value="Modesto">Modesto</option>
+                                                        <option value="Fontana">Fontana</option>
+                                                        <option value="Oxnard">Oxnard</option>
+                                                        <option value="Moreno Valley">Moreno Valley</option>
+                                                        <option value="Huntington Beach">Huntington Beach</option>
+                                                    </optgroup>
+                                                    <optgroup label="Florida">
+                                                        <option value="Jacksonville">Jacksonville</option>
+                                                        <option value="Miami">Miami</option>
+                                                        <option value="Tampa">Tampa</option>
+                                                        <option value="Orlando">Orlando</option>
+                                                        <option value="St. Petersburg">St. Petersburg</option>
+                                                        <option value="Hialeah">Hialeah</option>
+                                                        <option value="Tallahassee">Tallahassee</option>
+                                                        <option value="Fort Lauderdale">Fort Lauderdale</option>
+                                                        <option value="Port St. Lucie">Port St. Lucie</option>
+                                                        <option value="Cape Coral">Cape Coral</option>
+                                                        <option value="Pembroke Pines">Pembroke Pines</option>
+                                                        <option value="Hollywood">Hollywood</option>
+                                                        <option value="Miramar">Miramar</option>
+                                                        <option value="Gainesville">Gainesville</option>
+                                                        <option value="Coral Springs">Coral Springs</option>
+                                                        <option value="Clearwater">Clearwater</option>
+                                                        <option value="Miami Gardens">Miami Gardens</option>
+                                                        <option value="Palm Bay">Palm Bay</option>
+                                                        <option value="West Palm Beach">West Palm Beach</option>
+                                                        <option value="Pompano Beach">Pompano Beach</option>
+                                                        <option value="Lakeland">Lakeland</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--!Shop Locator For Modal Ends-->
                             <div class="horizontal_line"></div>
                             <div class="track_order">
                                 <div class="icon_cus">
-                                    <a href=""><i class="fa-solid fa-truck"></i></a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href=""><i
+                                            class="fa-solid fa-truck"></i></a>
                                 </div>
                                 <div class="txt_cus">
-                                    <a href="">Track Order</a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href="">Track Order</a>
                                 </div>
                             </div>
+                            <!--!Track Order For Modal Starts-->
+                            <div class="modal fade for_track_order" id="exampleModalThree" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                    <div class="modal-content for_modal_content">
+                                        <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body for_modal_body">
+                                            <div class="for_heading">
+                                                <p>SIGN IN</p>
+                                            </div>
+                                            <div class="for_content">
+                                                <div class="for_txt">
+                                                    <p>Sign in now, Let's start your Grocery Shopping. Don't have an account?
+                                                        <a href="#">Sign Up Now</a>
+                                                    </p>
+                                                </div>
+                                                <form class="d-flex flex-column">
+                                                    <div class="form_group">
+                                                        <input type="text" id="username" placeholder="User Name">
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <input type="password" id="password" placeholder="Password">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary btn-block">SIGN UP</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--!Track Order For Modal Ends-->
                             <div class="horizontal_line"></div>
                             <div class="phn_no">
                                 <div class="icon_cus">
@@ -392,21 +790,62 @@
                             <div class="horizontal_line"></div>
                             <div class="sign_in">
                                 <div class="icon_cus">
-                                    <a href=""><i class="fa-solid fa-unlock"></i></a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href=""><i
+                                            class="fa-solid fa-unlock"></i></a>
                                 </div>
                                 <div class="txt_cus">
-                                    <a href="">Sign in</a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href="">Sign in</a>
                                 </div>
                             </div>
                             <div class="horizontal_line"></div>
                             <div class="sign_up">
                                 <div class="icon_cus">
-                                    <a href=""><i class="fa-solid fa-pen-to-square"></i></a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUp" href=""><i
+                                            class="fa-solid fa-pen-to-square"></i></a>
                                 </div>
                                 <div class="txt_cus">
-                                    <a href="">Sign up</a>
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUp" href="">Sign up</a>
                                 </div>
                             </div>
+                            <!--!Sign Up For Modal Starts-->
+                            <div class="modal fade for_track_order" id="exampleModalSignUp" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                    <div class="modal-content for_modal_content">
+                                        <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body for_modal_body">
+                                            <div class="for_heading">
+                                                <p>SIGN UP</p>
+                                            </div>
+                                            <div class="for_content">
+                                                <div class="for_txt">
+                                                    <p>Come join the Grocery Shoppy! Let's set up your account.
+                                                    </p>
+                                                </div>
+                                                <form class="d-flex flex-column">
+                                                    <div class="form_group">
+                                                        <input type="text" id="username" placeholder="User Name">
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <input type="email" id="email" placeholder="E-mail">
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <input type="password" id="password" placeholder="Password">
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <input type="password" id="password" placeholder="Confirm Password">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary btn-block">SIGN UP</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--!Sign Up For Modal Ends-->
                             <div class="horizontal_line"></div>
                         </div>
                         <div class="searchbar_shopcart_wrap d-flex">
@@ -415,8 +854,7 @@
                                     <div class="searchbar_cus">
                                         <input type="search" placeholder="How can we help you today?">
                                     </div>
-                                    <button class="searchbar_icon_cus"><i
-                                            class="fa-solid fa-magnifying-glass"></i></button>
+                                    <button class="searchbar_icon_cus"><i class="fa-solid fa-magnifying-glass"></i></button>
                                 </div>
                             </div>
                             <div class="shop_curt d-flex justify-content-center align-items-center">
