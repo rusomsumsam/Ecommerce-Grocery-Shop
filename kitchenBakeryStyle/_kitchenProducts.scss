@@ -50,10 +50,10 @@
 }
 //Top Products Title Section Ends
 //Top Products Section Starts
-.top_products_main {
+.kitchen_products_main {
     width: 86%;
     margin: auto;
-    .top_products_inner {
+    .kitchen_products_inner {
         width: 100%;
         .search_priceRange_foodPreference_discount_customerReview_cuisine_specialDeals_wrap_main {
             width: 24%;
@@ -273,32 +273,26 @@
                 }
             }
         }
-        .nuts_pureEnergy_oils_pastaNoodles_wrap_main {
+        .kitchen_products_item_wrap_main {
             width: 76%;
-            .nuts_pureEnergy_oils_pastaNoodles_wrap_inner {
+            .kitchen_products_item_wrap_inner {
                 width: 100%;
-                .nuts_wrap {
+                .kitchen_items_wrap {
                     width: 98%;
                     margin: auto;
-                    height: 445px;
                     background-color: #ffffff;
-                    box-shadow: 5px 0 10px -5px rgba(0,0,0,0.3),
-                    -5px 0 10px -5px rgba(0,0,0,0.3),
-                    0 5px 10px -5px rgba(0,0,0,0.3),
-                    0 -5px 10px -5px rgba(0,0,0,0.3);
-                    .for_header {
-                        p {
-                            font-family: "Open Sans", sans-serif;
-                            font-weight: 600;
-                            font-size: 26px;
-                            color: #242222;
-                            padding: 20px 0 30px 0;
-                        }
-                    }
-                    .almond_cashew_pista_wrap {
-                        width: 90%;
-                        margin: 20px auto 0 auto;
-                        .almonds_cus, .cashews_cus, .pistachios_cus {
+                    gap: 30px;
+                    padding-top: 20px;
+                    padding-bottom: 40px;
+                    .basmati_gulabJamun_greenTea_wrap {
+                        width: 100%;
+                        height: 400px;
+                        box-shadow: 5px 0 10px -5px rgba(0, 0, 0, 0.3),
+                        -5px 0 10px -5px rgba(0, 0, 0, 0.3),
+                        0 5px 10px -5px rgba(0, 0, 0, 0.3),
+                        0 -5px 10px -5px rgba(0, 0, 0, 0.3);
+                        padding-top: 20px;
+                        .basmati_cus, .gulabJamun_cus, .greenTea_cus {
                             position: relative;
                             .new_sticker_cus {
                                 width: 50px;
@@ -363,7 +357,7 @@
                                 margin-top: -9px;
                                 .one {
                                     font-family: "Open Sans", sans-serif;
-                                    font-weight: 400;
+                                    font-weight: 600;
                                     font-size: 16px;
                                     color: #aa2d0e;
                                 }
@@ -389,74 +383,15 @@
                             }
                         }
                     }
-                }
-                .pure_energy_wrap {
-                    width: 98%;
-                    height: 315px;
-                    margin: 10px auto 10px auto;
-                    background-color: #fe5723;
-                    .pure_energy_wrap_inner {
+                    .chilli_pepper_elaichi_wrap {
                         width: 100%;
-                        height: 315px;
-                        .for_txt {
-                            .big_txt {
-                                p {
-                                    font-family: "Open Sans", sans-serif;
-                                    font-weight: 700;
-                                    font-size: 36px;
-                                    color: #ffffff;
-                                    letter-spacing: 1px;
-                                }
-                            }
-                            .small_txt {
-                                p {
-                                    font-family: "Open Sans", sans-serif;
-                                    font-weight: 500;
-                                    font-size: 14px;
-                                    color: #ffffff;
-                                    letter-spacing: 1px;
-                                }
-                            }
-                            .offer_txt {
-                                p {
-                                    font-family: "Open Sans", sans-serif;
-                                    font-weight: 500;
-                                    font-size: 14px;
-                                    color: #242222;
-                                    letter-spacing: 1px;
-                                }
-                            }
-                        }
-                        .for_img {
-                            img {
-                                width: 250px;
-                                height: 250px;
-                            }
-                        }
-                    }
-                }
-                .oils_wrap {
-                    width: 98%;
-                    margin: auto;
-                    height: 445px;
-                    background-color: #ffffff;
-                    box-shadow: 5px 0 10px -5px rgba(0,0,0,0.3),
-                    -5px 0 10px -5px rgba(0,0,0,0.3),
-                    0 5px 10px -5px rgba(0,0,0,0.3),
-                    0 -5px 10px -5px rgba(0,0,0,0.3);
-                    .for_header {
-                        p {
-                            font-family: "Open Sans", sans-serif;
-                            font-weight: 600;
-                            font-size: 26px;
-                            color: #242222;
-                            padding: 20px 0 20px 0;
-                        }
-                    }
-                    .freedom_saffola_fortune_wrap {
-                        width: 90%;
-                        margin: auto;
-                        .freedom_oil_cus, .saffola_gold_cus, .fortune_oil_cus {
+                        height: 400px;
+                        box-shadow: 5px 0 10px -5px rgba(0, 0, 0, 0.3),
+                        -5px 0 10px -5px rgba(0, 0, 0, 0.3),
+                        0 5px 10px -5px rgba(0, 0, 0, 0.3),
+                        0 -5px 10px -5px rgba(0, 0, 0, 0.3);
+                        padding-top: 20px;
+                        .chilli_cus, .pepper_cus, .elaichi_cus {
                             position: relative;
                             .new_sticker_cus {
                                 width: 50px;
@@ -483,105 +418,28 @@
                                 background-color: #39a8f1;
                             }
                             .for_img {
-                                margin-top: 50px;
-                                img {
-                                    width: 100px;
-                                    height: 118px !important;
-                                }
-                            }
-                            .for_txt {
-                                p {
-                                    font-family: "Open Sans", sans-serif;
-                                    font-weight: 500;
-                                    font-size: 16px;
-                                    color: #242222;
-                                    margin-top: 50px;
-                                }
-                            }
-                            .for_price {
-                                gap: 16px;
-                                margin-top: -9px;
-                                .one {
-                                    font-family: "Open Sans", sans-serif;
-                                    font-weight: 400;
-                                    font-size: 16px;
-                                    color: #aa2d0e;
-                                }
-                                .two {
-                                    font-family: "Open Sans", sans-serif;
-                                    font-weight: 400;
-                                    font-size: 16px;
-                                    color: #494949;
-                                }
-                            }
-                            button {
-                                width: 170px;
-                                height: 45px;
-                                border-radius: 2%;
-                                margin-top: 9px;
-                                background-color: #1accfc;
-                                border: none;
-                                -webkit-border-radius: 2%;
-                                -moz-border-radius: 2%;
-                                -ms-border-radius: 2%;
-                                -o-border-radius: 2%;
-                                color: #ffffff;
-                            }
-                        }
-                    }
-                }
-                .noodles_pasta_wrap {
-                    width: 98%;
-                    margin: 10px auto 0 auto;
-                    height: 445px;
-                    background-color: #ffffff;
-                    box-shadow: 5px 0 10px -5px rgba(0,0,0,0.3),
-                    -5px 0 10px -5px rgba(0,0,0,0.3),
-                    0 5px 10px -5px rgba(0,0,0,0.3),
-                    0 -5px 10px -5px rgba(0,0,0,0.3);
-                    .for_header {
-                        p {
-                            font-family: "Open Sans", sans-serif;
-                            font-weight: 600;
-                            font-size: 26px;
-                            color: #242222;
-                            padding: 20px 0 30px 0;
-                        }
-                    }
-                    .yippee_wheat_chinese_wrap {
-                        width: 90%;
-                        margin: auto;
-                        .yippee_noodles_cus, .wheat_pasta_cus, .chinese_noodles_cus {
-                            position: relative;
-                            .new_sticker_cus {
-                                width: 50px;
-                                height: 50px;
-                                border-radius: 100%;
-                                -webkit-border-radius: 100%;
-                                -moz-border-radius: 100%;
-                                -ms-border-radius: 100%;
-                                -o-border-radius: 100%;
-                                background-color: #ff5d6e;
-                                text-align: center;
-                                position: absolute;
-                                top: 2%;
-                                left: 85%;
-                                p {
-                                    margin-bottom: 0;
-                                    color: #ffffff;
-                                }
-                            }
-                            .for_bg_cus_one {
-                                background-color: #f2c01d;
-                            }
-                            .for_bg_cus_two {
-                                background-color: #39a8f1;
-                            }
-                            .for_img {
-                                margin-top: 20px;
                                 img {
                                     width: 120px;
-                                    height: 132px !important;
+                                    height: 132px;
+                                }
+                                .color_cus {
+                                    width: 140px;
+                                    height: 40px;
+                                    background-color: rgba(119, 54, 0, 0.993);
+                                    position: absolute;
+                                    top: 36%;
+                                    left: 12%;
+                                    visibility: hidden;
+                                    p {
+                                        color: #ffffff;
+                                        margin-bottom: 0;
+                                        font-family: "Open Sans", sans-serif;
+                                        font-weight: 500;
+                                        font-size: 15px;
+                                    }
+                                }
+                                &:hover .color_cus {
+                                    visibility: visible;
                                 }
                             }
                             .for_txt {
@@ -598,7 +456,205 @@
                                 margin-top: -9px;
                                 .one {
                                     font-family: "Open Sans", sans-serif;
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    color: #aa2d0e;
+                                }
+                                .two {
+                                    font-family: "Open Sans", sans-serif;
                                     font-weight: 400;
+                                    font-size: 16px;
+                                    color: #494949;
+                                }
+                            }
+                            button {
+                                width: 170px;
+                                height: 45px;
+                                border-radius: 2%;
+                                margin-top: 9px;
+                                background-color: #1accfc;
+                                border: none;
+                                -webkit-border-radius: 2%;
+                                -moz-border-radius: 2%;
+                                -ms-border-radius: 2%;
+                                -o-border-radius: 2%;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                    .narulag_fill_amul_wrap {
+                        width: 100%;
+                        height: 400px;
+                        box-shadow: 5px 0 10px -5px rgba(0, 0, 0, 0.3),
+                        -5px 0 10px -5px rgba(0, 0, 0, 0.3),
+                        0 5px 10px -5px rgba(0, 0, 0, 0.3),
+                        0 -5px 10px -5px rgba(0, 0, 0, 0.3);
+                        padding-top: 20px;
+                        .narulag_cus, .fill_cus, .amul_cus {
+                            position: relative;
+                            .new_sticker_cus {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 100%;
+                                -webkit-border-radius: 100%;
+                                -moz-border-radius: 100%;
+                                -ms-border-radius: 100%;
+                                -o-border-radius: 100%;
+                                background-color: #ff5d6e;
+                                text-align: center;
+                                position: absolute;
+                                top: 2%;
+                                left: 85%;
+                                p {
+                                    margin-bottom: 0;
+                                    color: #ffffff;
+                                }
+                            }
+                            .for_bg_cus_one {
+                                background-color: #f2c01d;
+                            }
+                            .for_bg_cus_two {
+                                background-color: #39a8f1;
+                            }
+                            .for_img {
+                                img {
+                                    width: 120px;
+                                    height: 132px;
+                                }
+                                .color_cus {
+                                    width: 140px;
+                                    height: 40px;
+                                    background-color: rgba(119, 54, 0, 0.993);
+                                    position: absolute;
+                                    top: 36%;
+                                    left: 12%;
+                                    visibility: hidden;
+                                    p {
+                                        color: #ffffff;
+                                        margin-bottom: 0;
+                                        font-family: "Open Sans", sans-serif;
+                                        font-weight: 500;
+                                        font-size: 15px;
+                                    }
+                                }
+                                &:hover .color_cus {
+                                    visibility: visible;
+                                }
+                            }
+                            .for_txt {
+                                p {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    color: #242222;
+                                    margin-top: 50px;
+                                }
+                            }
+                            .for_price {
+                                gap: 16px;
+                                margin-top: -9px;
+                                .one {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    color: #aa2d0e;
+                                }
+                                .two {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: #494949;
+                                }
+                            }
+                            button {
+                                width: 170px;
+                                height: 45px;
+                                border-radius: 2%;
+                                margin-top: 9px;
+                                background-color: #1accfc;
+                                border: none;
+                                -webkit-border-radius: 2%;
+                                -moz-border-radius: 2%;
+                                -ms-border-radius: 2%;
+                                -o-border-radius: 2%;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                    .snickers_jam_pickles_wrap {
+                        width: 100%;
+                        height: 400px;
+                        box-shadow: 5px 0 10px -5px rgba(0, 0, 0, 0.3),
+                        -5px 0 10px -5px rgba(0, 0, 0, 0.3),
+                        0 5px 10px -5px rgba(0, 0, 0, 0.3),
+                        0 -5px 10px -5px rgba(0, 0, 0, 0.3);
+                        padding-top: 20px;
+                        .snickers_cus, .jam_cus, .pickles_cus {
+                            position: relative;
+                            .new_sticker_cus {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 100%;
+                                -webkit-border-radius: 100%;
+                                -moz-border-radius: 100%;
+                                -ms-border-radius: 100%;
+                                -o-border-radius: 100%;
+                                background-color: #ff5d6e;
+                                text-align: center;
+                                position: absolute;
+                                top: 2%;
+                                left: 85%;
+                                p {
+                                    margin-bottom: 0;
+                                    color: #ffffff;
+                                }
+                            }
+                            .for_bg_cus_one {
+                                background-color: #f2c01d;
+                            }
+                            .for_bg_cus_two {
+                                background-color: #39a8f1;
+                            }
+                            .for_img {
+                                img {
+                                    width: 120px;
+                                    height: 132px;
+                                }
+                                .color_cus {
+                                    width: 140px;
+                                    height: 40px;
+                                    background-color: rgba(119, 54, 0, 0.993);
+                                    position: absolute;
+                                    top: 36%;
+                                    left: 12%;
+                                    visibility: hidden;
+                                    p {
+                                        color: #ffffff;
+                                        margin-bottom: 0;
+                                        font-family: "Open Sans", sans-serif;
+                                        font-weight: 500;
+                                        font-size: 15px;
+                                    }
+                                }
+                                &:hover .color_cus {
+                                    visibility: visible;
+                                }
+                            }
+                            .for_txt {
+                                p {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    color: #242222;
+                                    margin-top: 50px;
+                                }
+                            }
+                            .for_price {
+                                gap: 16px;
+                                margin-top: -9px;
+                                .one {
+                                    font-family: "Open Sans", sans-serif;
+                                    font-weight: 600;
                                     font-size: 16px;
                                     color: #aa2d0e;
                                 }
@@ -632,14 +688,14 @@
 //Top Products Section Ends
 //!Top Product Section For Responsive Starts
 @media only screen and (max-width:991px) {
-    .top_products_main {
+    .kitchen_products_main {
         width: 98% !important;
     }
 }
 @media only screen and (max-width:800px) {
-    .top_products_main {
+    .kitchen_products_main {
         width: 100% !important;
-        .top_products_inner {
+        .kitchen_products_inner {
             flex-direction: column !important;
             .search_priceRange_foodPreference_discount_customerReview_cuisine_specialDeals_wrap_main {
                 width: 100%;
@@ -673,62 +729,56 @@
                 }
                 
             }
-            .nuts_pureEnergy_oils_pastaNoodles_wrap_main {
+            .kitchen_products_item_wrap_main {
                 width: 100%;
             }
         }
     }
 }
 @media only screen and (max-width:650px) {
-    .nuts_pureEnergy_oils_pastaNoodles_wrap_inner {
-        .nuts_wrap {
-            height: 1060px !important;
-            .almond_cashew_pista_wrap {
+    .kitchen_products_item_wrap_inner {
+        .kitchen_items_wrap {
+            .basmati_gulabJamun_greenTea_wrap {
+                height: 1000px !important;
                 flex-direction: column !important;
-                gap: 20px !important;
-                .almonds_cus, .cashews_cus, .pistachios_cus {
+                gap: 50px !important;
+                padding-bottom: 30px;
+                .basmati_cus, .gulabJamun_cus, .greenTea_cus {
                     .new_sticker_cus {
                         left: 60% !important;
                     }
                 }
             }
-        }
-        .pure_energy_wrap {
-            height: 330px !important;
-            .pure_energy_wrap_inner {
+            .chilli_pepper_elaichi_wrap {
+                height: 1000px !important;
                 flex-direction: column !important;
-                .for_txt {
-                    margin-top: 10px;
-                }
-                .for_img {
-                    margin-bottom: 10px;
-                    img {
-                        width: 150px !important;
-                        height: 150px !important;
+                gap: 50px !important;
+                padding-bottom: 30px;
+                .chilli_cus, .pepper_cus, .elaichi_cus {
+                    .new_sticker_cus {
+                        left: 60% !important;
                     }
                 }
             }
-        }
-        .oils_wrap {
-            height: 1140px !important;
-            .freedom_saffola_fortune_wrap {
+            .narulag_fill_amul_wrap {
+                height: 1000px !important;
                 flex-direction: column !important;
-                gap: 20px !important;
-                .freedom_oil_cus, .saffola_gold_cus, .fortune_oil_cus {
+                gap: 50px !important;
+                padding-bottom: 30px;
+                .narulag_cus, .fill_cus, .amul_cus {
                     .new_sticker_cus {
-                        left: 55% !important;
+                        left: 60% !important;
                     }
                 }
             }
-        }
-        .noodles_pasta_wrap {
-            height: 1100px !important;
-            .yippee_wheat_chinese_wrap {
+            .snickers_jam_pickles_wrap {
+                height: 1000px !important;
                 flex-direction: column !important;
-                gap: 20px !important;
-                .yippee_noodles_cus, .wheat_pasta_cus, .chinese_noodles_cus {
+                gap: 50px !important;
+                padding-bottom: 30px;
+                .snickers_cus, .jam_cus, .pickles_cus {
                     .new_sticker_cus {
-                        left: 58% !important;
+                        left: 60% !important;
                     }
                 }
             }
