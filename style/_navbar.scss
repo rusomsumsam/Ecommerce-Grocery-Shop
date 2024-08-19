@@ -803,7 +803,14 @@
         .for_modal_dialog {
             width: 90%;
             margin: auto;
-        }
+            .for_modal_content {
+                .for_close_btn {
+                    button {
+                        margin-left: 68% !important;
+                    }
+                }
+            }           
+        }        
     }
 }
 //! Navbar One Modal Section For Responsive Ends
