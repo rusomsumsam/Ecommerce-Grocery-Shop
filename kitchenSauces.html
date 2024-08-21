@@ -1,0 +1,1982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grocery Shoppy</title>
+        <link rel="stylesheet" href="dist/kitchenSweetsChocolate.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+            integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/regular.min.css"
+            integrity="sha512-KYEnM30Gjf5tMbgsrQJsR0FSpufP9S4EiAYi168MvTjK6E83x3r6PTvLPlXYX350/doBXmTFUEnJr/nCsDovuw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/v5-font-face.min.css"
+            integrity="sha512-gb3xyfj/FrHtphPVLYaKBZ8WyMYEXD1+Cgt3FiKhFmbN2UuOpite2w1Lgmw6NzfsNmMGX+BbVra4ceV95z9Vaw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+            integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <!--Grocery Offer Zone Text Starts-->
+        <section class="grocery_offer_zone_main">
+            <div class="grocery_offer_zone_inner">
+                <div class="grocery_offer_zone_txt">
+                    <p>Grocery Offer Zone Top Deals & Discounts</p>
+                </div>
+            </div>
+        </section>
+        <!--Grocery Offer Zone Text Ends-->
+        <!--!For Responsive Navbar Starts-->
+        <section class="navbar_res navbar navbar-expand-lg d-block d-lg-none">
+            <nav class="res_navbar_main d-flex align-items-center">
+                <div class="res_navbar_inner">
+                    <div class="hamburger_btn">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="res_navbar_logo">
+                        <a href=""><span>G</span>rocery <span>S</span>hoppy</a>
+                    </div>
+                    <div class="responsive_navbar_item d-flex justify-content-end">
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModalTwo" href="#"><i
+                                class="fa-solid fa-location-dot"></i></a>
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModalFour" href="#"><i
+                                class="fa-solid fa-truck"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone"></i></a>
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUpTwo" href="#"><i
+                                class="fa-solid fa-user"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                    </div>
+                    <!--!For Shop Locator Modal Starts-->
+                    <div class="modal fade for_shop_locator" id="exampleModalTwo" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                            <div class="modal-content for_modal_content">
+                                <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body for_modal_body">
+                                    <div class="for_heading">
+                                        <p>Please Select Your Location</p>
+                                    </div>
+                                    <div class="for_content">
+                                        <select>
+                                            <option disabled selected class="select_city">Select City</option>
+                                            <optgroup label="Popular Cities">
+                                                <option value="Birmingham">Birmingham</option>
+                                                <option value="Anchorage">Anchorage</option>
+                                                <option value="Phoenix">Phoenix</option>
+                                                <option value="Little Rock">Little Rock</option>
+                                                <option value="Los Angeles">Los Angeles</option>
+                                                <option value="Denver">Denver</option>
+                                                <option value="Bridgeport">Bridgeport</option>
+                                                <option value="Wilmington">Wilmington</option>
+                                                <option value="Jacksonville">Jacksonville</option>
+                                                <option value="Atlanta">Atlanta</option>
+                                                <option value="Honolulu">Honolulu</option>
+                                                <option value="Boise">Boise</option>
+                                                <option value="Chicago">Chicago</option>
+                                                <option value="Indianapolis">Indianapolis</option>
+                                            </optgroup>
+                                            <optgroup label="Alabama">
+                                                <option value="Birmingham">Birmingham</option>
+                                                <option value="Montgomery">Montgomery</option>
+                                                <option value="Mobile">Mobile</option>
+                                                <option value="Huntsville">Huntsville</option>
+                                                <option value="Tuscaloosa">Tuscaloosa</option>
+                                                <option value="Hoover">Hoover</option>
+                                                <option value="Dothan">Dothan</option>
+                                                <option value="Auburn">Auburn</option>
+                                                <option value="Decatur">Decatur</option>
+                                                <option value="Madison">Madison</option>
+                                                <option value="Florence">Florence</option>
+                                                <option value="Gadsden">Gadsden</option>
+                                            </optgroup>
+                                            <optgroup label="Alaska">
+                                                <option value="Anchorage">Anchorage</option>
+                                                <option value="Fairbanks">Fairbanks</option>
+                                                <option value="Juneau">Juneau</option>
+                                                <option value="Sitka">Sitka</option>
+                                                <option value="Ketchikan">Ketchikan</option>
+                                                <option value="Wasilla">Wasilla</option>
+                                                <option value="Kenai">Kenai</option>
+                                                <option value="Kodiak">Kodiak</option>
+                                                <option value="Bethel">Bethel</option>
+                                                <option value="Palmer">Palmer</option>
+                                            </optgroup>
+                                            <optgroup label="Arizona">
+                                                <option value="Phoenix">Phoenix</option>
+                                                <option value="Tucson">Tucson</option>
+                                                <option value="Mesa">Mesa</option>
+                                                <option value="Chandler">Chandler</option>
+                                                <option value="Glendale">Glendale</option>
+                                                <option value="Scottsdale">Scottsdale</option>
+                                                <option value="Gilbert">Gilbert</option>
+                                                <option value="Tempe">Tempe</option>
+                                                <option value="Peoria">Peoria</option>
+                                                <option value="Surprise">Surprise</option>
+                                                <option value="Yuma">Yuma</option>
+                                                <option value="Avondale">Avondale</option>
+                                                <option value="Flagstaff">Flagstaff</option>
+                                                <option value="Goodyear">Goodyear</option>
+                                                <option value="Lake Havasu City">Lake Havasu City</option>
+                                            </optgroup>
+                                            <optgroup label="Arkansas">
+                                                <option value="Little Rock">Little Rock</option>
+                                                <option value="Fort Smith">Fort Smith</option>
+                                                <option value="Fayetteville">Fayetteville</option>
+                                                <option value="Springdale">Springdale</option>
+                                                <option value="Jonesboro">Jonesboro</option>
+                                                <option value="Rogers">Rogers</option>
+                                                <option value="North Little Rock">North Little Rock</option>
+                                                <option value="Conway">Conway</option>
+                                                <option value="Bentonville">Bentonville</option>
+                                                <option value="Pine Bluff">Pine Bluff</option>
+                                                <option value="Hot Springs">Hot Springs</option>
+                                                <option value="Benton">Benton</option>
+                                                <option value="Texarkana">Texarkana</option>
+                                                <option value="Sherwood">Sherwood</option>
+                                                <option value="Jacksonville">Jacksonville</option>
+                                            </optgroup>
+                                            <optgroup label="California">
+                                                <option value="Los Angeles">Los Angeles</option>
+                                                <option value="San Diego">San Diego</option>
+                                                <option value="San Jose">San Jose</option>
+                                                <option value="San Francisco">San Francisco</option>
+                                                <option value="Fresno">Fresno</option>
+                                                <option value="Sacramento">Sacramento</option>
+                                                <option value="Long Beach">Long Beach</option>
+                                                <option value="Oakland">Oakland</option>
+                                                <option value="Bakersfield">Bakersfield</option>
+                                                <option value="Anaheim">Anaheim</option>
+                                                <option value="Santa Ana">Santa Ana</option>
+                                                <option value="Riverside">Riverside</option>
+                                                <option value="Stockton">Stockton</option>
+                                                <option value="Chula Vista">Chula Vista</option>
+                                                <option value="Irvine">Irvine</option>
+                                                <option value="Fremont">Fremont</option>
+                                                <option value="San Bernardino">San Bernardino</option>
+                                                <option value="Modesto">Modesto</option>
+                                                <option value="Fontana">Fontana</option>
+                                                <option value="Oxnard">Oxnard</option>
+                                                <option value="Moreno Valley">Moreno Valley</option>
+                                                <option value="Huntington Beach">Huntington Beach</option>
+                                            </optgroup>
+                                            <optgroup label="Florida">
+                                                <option value="Jacksonville">Jacksonville</option>
+                                                <option value="Miami">Miami</option>
+                                                <option value="Tampa">Tampa</option>
+                                                <option value="Orlando">Orlando</option>
+                                                <option value="St. Petersburg">St. Petersburg</option>
+                                                <option value="Hialeah">Hialeah</option>
+                                                <option value="Tallahassee">Tallahassee</option>
+                                                <option value="Fort Lauderdale">Fort Lauderdale</option>
+                                                <option value="Port St. Lucie">Port St. Lucie</option>
+                                                <option value="Cape Coral">Cape Coral</option>
+                                                <option value="Pembroke Pines">Pembroke Pines</option>
+                                                <option value="Hollywood">Hollywood</option>
+                                                <option value="Miramar">Miramar</option>
+                                                <option value="Gainesville">Gainesville</option>
+                                                <option value="Coral Springs">Coral Springs</option>
+                                                <option value="Clearwater">Clearwater</option>
+                                                <option value="Miami Gardens">Miami Gardens</option>
+                                                <option value="Palm Bay">Palm Bay</option>
+                                                <option value="West Palm Beach">West Palm Beach</option>
+                                                <option value="Pompano Beach">Pompano Beach</option>
+                                                <option value="Lakeland">Lakeland</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--!For Shop Locator Modal Ends-->
+                    <!--!Track Order For Modal Starts-->
+                    <div class="modal fade for_track_order" id="exampleModalFour" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                            <div class="modal-content for_modal_content">
+                                <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body for_modal_body">
+                                    <div class="for_heading">
+                                        <p>SIGN IN</p>
+                                    </div>
+                                    <div class="for_content">
+                                        <div class="for_txt">
+                                            <p>Sign in now, Let's start your Grocery Shopping. Don't have an account?
+                                                <a href="#">Sign Up Now</a>
+                                            </p>
+                                        </div>
+                                        <form class="d-flex flex-column">
+                                            <div class="form_group">
+                                                <input type="text" id="username" placeholder="User Name">
+                                            </div>
+                                            <div class="form_group">
+                                                <input type="password" id="password" placeholder="Password">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--!Track Order For Modal Ends-->
+                    <!--!Sign Up For Modal Starts-->
+                    <div class="modal fade for_track_order" id="exampleModalSignUpTwo" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                            <div class="modal-content for_modal_content">
+                                <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body for_modal_body">
+                                    <div class="for_heading">
+                                        <p>SIGN UP</p>
+                                    </div>
+                                    <div class="for_content">
+                                        <div class="for_txt">
+                                            <p>Come join the Grocery Shoppy! Let's set up your account.
+                                            </p>
+                                        </div>
+                                        <form class="d-flex flex-column">
+                                            <div class="form_group">
+                                                <input type="text" id="username" placeholder="User Name">
+                                            </div>
+                                            <div class="form_group">
+                                                <input type="email" id="email" placeholder="E-mail">
+                                            </div>
+                                            <div class="form_group">
+                                                <input type="password" id="password" placeholder="Password">
+                                            </div>
+                                            <div class="form_group">
+                                                <input type="password" id="password" placeholder="Confirm Password">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--!Sign Up For Modal Ends-->
+                    <div class="offcanvas offcanvas-start ham_menu_cus" data-bs-scroll="true" data-bs-backdrop="false"
+                        tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                        <div class="offcanvas-header ham_menu_cus_header">
+                            <a class="home_btn_hamburger" href="#"><i class="fa-solid fa-house"></i></a>
+                            <div class="res_navbar_logo">
+                                <a href=""><span>G</span>rocery <span>S</span>hoppy</a>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ham_menu_cus_body">
+                            <div class="all_category_for_hamburger_menu">
+                                <div class="all_category_heading d-flex flex-row">
+                                    <p>All Category</p>
+                                    <span><i class="fa-solid fa-chevron-right"></i></span>
+                                </div>
+                                <div class="all_category_item d-flex flex-column">
+                                    <div>
+                                        <img src="image/kitchen.webp" alt="">
+                                        <a href="#">Kitchen</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/household.webp" alt="">
+                                        <a href="#">Household</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/snacksBeverages.webp" alt="">
+                                        <a href="#">Snacks & Beverages</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/personalCare.webp" alt="">
+                                        <a href="#">Personal Care</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/giftHampers.webp" alt="">
+                                        <a href="#">Gift Hampers</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/fruitsVege.webp" alt="">
+                                        <a href="#">Fruits Vegetables</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/babyCare.webp" alt="">
+                                        <a href="#">Baby Care</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/softDrinksJuice.webp" alt="">
+                                        <a href="#">Soft Drinks & Juices</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/frozenFood.webp" alt="">
+                                        <a href="#">Frozen Food</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/breadbakery.webp" alt="">
+                                        <a href="#">Bread & Bakery</a>
+                                    </div>
+                                    <div>
+                                        <img src="image/sweets.webp" alt="">
+                                        <a href="#">Sweets</a>
+                                    </div>
+                                </div>
+                                <div class="home_cus">
+                                    <a class="active" href="index.html">Home</a>
+                                </div>
+                                <div class="about_us_cus">
+                                    <a href="aboutUs.html">About Us</a>
+                                </div>
+                                <div class="accordion kitchen_cus" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Kitchen
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse kitchen_cus_menu"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body kitchen_cus_body">
+                                                <div>
+                                                    <img src="image/kitchenBakery.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Bakery</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenBakingSupplies.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Baking Supplies</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenCoffeeTeaBeverage.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Coffee, Tea & Beverages</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenDriedFruitNut.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Dried Fruits, Nuts</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenSweetChocolate.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Sweets, Chocolate</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenSpicesMasala.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Spices, Masalas</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenJamHoney.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Jams, Honey & Spreads</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenPickles.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Pickles</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenPastaNoodles.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Pasta & Noodles</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenRiceFlour.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Rice, Flour & Pulses</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenSauceCookingPaste.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Sauces & Cooking Pastes</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenSnackFood.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Snack Foods</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenOilsVinegar.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Oils & Vinegars</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/kitchenMeatPoultry.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Meat, Poultry & Seafood</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion household_cus" id="accordionExample">
+                                    <div class="accordion-item household_cus_item">
+                                        <h2 class="accordion-header household_cus_header">
+                                            <button class="accordion-button collapsed household_cus_btn" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Household
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div>
+                                                    <img src="image/householdKitchenDining.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Kitchen & Dining</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdDetergents.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Ditergents</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdUtensil.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Utensil Cleaners</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdFloorCleaner.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Floor & Other Cleaners</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdDisposableGarbage.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Disposables & Garbage Bag</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdFresheners.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Repellents & Fresheners</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdDishwash.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Dishwash</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdPetcare.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Pet Care</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdCleaningAccessories.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Cleaning Accessories</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdPoojaNeeds.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Pooja Needs</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdCrackers.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Crackers</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdFestiveDecorative.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Festive Decoratives</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdPlasticWare.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Plasticware</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/householdHomeCare.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Home Care</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faqs_cus">
+                                    <a href="faqs.html">Faqs</a>
+                                </div>
+                                <div class="accordion pages_cus" id="accordionExample">
+                                    <div class="accordion-item pages_cus_item">
+                                        <h2 class="accordion-header pages_cus_header">
+                                            <button class="accordion-button collapsed pages_cus_btn" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
+                                                Pages
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div>
+                                                    <img src="image/webicon.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Web Icons</a>
+                                                </div>
+                                                <div>
+                                                    <img src="image/typography.webp" alt="">
+                                                    <a class="dropdown-item" href="#">Typography</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact_cus">
+                                    <a href="contact.html">Contact</a>
+                                </div>
+                                <div class="general_information_cus">
+                                    <div class="general_cus d-flex">
+                                        <p>General</p>
+                                        <span><i class="fa-solid fa-chevron-right"></i></span>
+                                    </div>
+                                    <div class="general_information_item d-flex flex-column">
+                                        <div class="d-flex">
+                                            <a href=""><i class="fa-solid fa-phone"></i></a>
+                                            <a class="txt" href="#">001 234 5678</a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href=""><i class="fa-solid fa-truck"></i></a>
+                                            <a class="txt" href="#">Track Order</a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href=""><i class="fa-solid fa-user"></i></a>
+                                            <a class="txt" href="#">User</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+        </section>
+        <!--!For Responsive Navbar Ends-->
+        <!--!For Responsive Search Box Starts-->
+        <section class="searchbar_res_cus d-block d-lg-none">
+            <div class="searchbar_icon_wrap d-flex">
+                <div class="searchbar_icon_inner d-flex">
+                    <div class="searchbar_cus">
+                        <input type="search" placeholder="How can we help you today?">
+                    </div>
+                    <button class="searchbar_icon_cus"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </section>
+        <!--!For Responsive Search Box Ends-->
+        <!--Navbar One Starts-->
+        <section class="navbar_one_main d-none d-lg-block">
+            <nav class="navbar navbar_one_inner">
+                <div class="logo_shop_information_searchbar_wrap d-flex container-fluid">
+                    <div class="logo_main d-flex flex-column align-items-center justify-content-center">
+                        <div class="logo_txt">
+                            <a href=""><span>G</span>rocery <span>S</span>hoppy</a>
+                        </div>
+                        <div class="logo_img">
+                            <a href=""><img src="dist/img/logo.webp" alt="Grocery Shoppy"></a>
+                        </div>
+                    </div>
+                    <div class="shop_information_searchbar_main d-flex flex-column">
+                        <div class="shop_information_wrap d-flex flex-row">
+                            <div class="shop_locator">
+                                <div class="icon_cus">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" href=""><i
+                                            class="fa-solid fa-location-dot"></i></a>
+                                </div>
+                                <div class="txt_cus">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Shop Locator</a>
+                                </div>
+                            </div>
+                            <!--!Shop Locator For Modal Starts-->
+                            <div class="modal fade for_shop_locator" id="exampleModal" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                    <div class="modal-content for_modal_content">
+                                        <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body for_modal_body">
+                                            <div class="for_heading">
+                                                <p>Please Select Your Location</p>
+                                            </div>
+                                            <div class="for_content">
+                                                <select>
+                                                    <option disabled selected class="select_city">Select City</option>
+                                                    <optgroup label="Popular Cities">
+                                                        <option value="Birmingham">Birmingham</option>
+                                                        <option value="Anchorage">Anchorage</option>
+                                                        <option value="Phoenix">Phoenix</option>
+                                                        <option value="Little Rock">Little Rock</option>
+                                                        <option value="Los Angeles">Los Angeles</option>
+                                                        <option value="Denver">Denver</option>
+                                                        <option value="Bridgeport">Bridgeport</option>
+                                                        <option value="Wilmington">Wilmington</option>
+                                                        <option value="Jacksonville">Jacksonville</option>
+                                                        <option value="Atlanta">Atlanta</option>
+                                                        <option value="Honolulu">Honolulu</option>
+                                                        <option value="Boise">Boise</option>
+                                                        <option value="Chicago">Chicago</option>
+                                                        <option value="Indianapolis">Indianapolis</option>
+                                                    </optgroup>
+                                                    <optgroup label="Alabama">
+                                                        <option value="Birmingham">Birmingham</option>
+                                                        <option value="Montgomery">Montgomery</option>
+                                                        <option value="Mobile">Mobile</option>
+                                                        <option value="Huntsville">Huntsville</option>
+                                                        <option value="Tuscaloosa">Tuscaloosa</option>
+                                                        <option value="Hoover">Hoover</option>
+                                                        <option value="Dothan">Dothan</option>
+                                                        <option value="Auburn">Auburn</option>
+                                                        <option value="Decatur">Decatur</option>
+                                                        <option value="Madison">Madison</option>
+                                                        <option value="Florence">Florence</option>
+                                                        <option value="Gadsden">Gadsden</option>
+                                                    </optgroup>
+                                                    <optgroup label="Alaska">
+                                                        <option value="Anchorage">Anchorage</option>
+                                                        <option value="Fairbanks">Fairbanks</option>
+                                                        <option value="Juneau">Juneau</option>
+                                                        <option value="Sitka">Sitka</option>
+                                                        <option value="Ketchikan">Ketchikan</option>
+                                                        <option value="Wasilla">Wasilla</option>
+                                                        <option value="Kenai">Kenai</option>
+                                                        <option value="Kodiak">Kodiak</option>
+                                                        <option value="Bethel">Bethel</option>
+                                                        <option value="Palmer">Palmer</option>
+                                                    </optgroup>
+                                                    <optgroup label="Arizona">
+                                                        <option value="Phoenix">Phoenix</option>
+                                                        <option value="Tucson">Tucson</option>
+                                                        <option value="Mesa">Mesa</option>
+                                                        <option value="Chandler">Chandler</option>
+                                                        <option value="Glendale">Glendale</option>
+                                                        <option value="Scottsdale">Scottsdale</option>
+                                                        <option value="Gilbert">Gilbert</option>
+                                                        <option value="Tempe">Tempe</option>
+                                                        <option value="Peoria">Peoria</option>
+                                                        <option value="Surprise">Surprise</option>
+                                                        <option value="Yuma">Yuma</option>
+                                                        <option value="Avondale">Avondale</option>
+                                                        <option value="Flagstaff">Flagstaff</option>
+                                                        <option value="Goodyear">Goodyear</option>
+                                                        <option value="Lake Havasu City">Lake Havasu City</option>
+                                                    </optgroup>
+                                                    <optgroup label="Arkansas">
+                                                        <option value="Little Rock">Little Rock</option>
+                                                        <option value="Fort Smith">Fort Smith</option>
+                                                        <option value="Fayetteville">Fayetteville</option>
+                                                        <option value="Springdale">Springdale</option>
+                                                        <option value="Jonesboro">Jonesboro</option>
+                                                        <option value="Rogers">Rogers</option>
+                                                        <option value="North Little Rock">North Little Rock</option>
+                                                        <option value="Conway">Conway</option>
+                                                        <option value="Bentonville">Bentonville</option>
+                                                        <option value="Pine Bluff">Pine Bluff</option>
+                                                        <option value="Hot Springs">Hot Springs</option>
+                                                        <option value="Benton">Benton</option>
+                                                        <option value="Texarkana">Texarkana</option>
+                                                        <option value="Sherwood">Sherwood</option>
+                                                        <option value="Jacksonville">Jacksonville</option>
+                                                    </optgroup>
+                                                    <optgroup label="California">
+                                                        <option value="Los Angeles">Los Angeles</option>
+                                                        <option value="San Diego">San Diego</option>
+                                                        <option value="San Jose">San Jose</option>
+                                                        <option value="San Francisco">San Francisco</option>
+                                                        <option value="Fresno">Fresno</option>
+                                                        <option value="Sacramento">Sacramento</option>
+                                                        <option value="Long Beach">Long Beach</option>
+                                                        <option value="Oakland">Oakland</option>
+                                                        <option value="Bakersfield">Bakersfield</option>
+                                                        <option value="Anaheim">Anaheim</option>
+                                                        <option value="Santa Ana">Santa Ana</option>
+                                                        <option value="Riverside">Riverside</option>
+                                                        <option value="Stockton">Stockton</option>
+                                                        <option value="Chula Vista">Chula Vista</option>
+                                                        <option value="Irvine">Irvine</option>
+                                                        <option value="Fremont">Fremont</option>
+                                                        <option value="San Bernardino">San Bernardino</option>
+                                                        <option value="Modesto">Modesto</option>
+                                                        <option value="Fontana">Fontana</option>
+                                                        <option value="Oxnard">Oxnard</option>
+                                                        <option value="Moreno Valley">Moreno Valley</option>
+                                                        <option value="Huntington Beach">Huntington Beach</option>
+                                                    </optgroup>
+                                                    <optgroup label="Florida">
+                                                        <option value="Jacksonville">Jacksonville</option>
+                                                        <option value="Miami">Miami</option>
+                                                        <option value="Tampa">Tampa</option>
+                                                        <option value="Orlando">Orlando</option>
+                                                        <option value="St. Petersburg">St. Petersburg</option>
+                                                        <option value="Hialeah">Hialeah</option>
+                                                        <option value="Tallahassee">Tallahassee</option>
+                                                        <option value="Fort Lauderdale">Fort Lauderdale</option>
+                                                        <option value="Port St. Lucie">Port St. Lucie</option>
+                                                        <option value="Cape Coral">Cape Coral</option>
+                                                        <option value="Pembroke Pines">Pembroke Pines</option>
+                                                        <option value="Hollywood">Hollywood</option>
+                                                        <option value="Miramar">Miramar</option>
+                                                        <option value="Gainesville">Gainesville</option>
+                                                        <option value="Coral Springs">Coral Springs</option>
+                                                        <option value="Clearwater">Clearwater</option>
+                                                        <option value="Miami Gardens">Miami Gardens</option>
+                                                        <option value="Palm Bay">Palm Bay</option>
+                                                        <option value="West Palm Beach">West Palm Beach</option>
+                                                        <option value="Pompano Beach">Pompano Beach</option>
+                                                        <option value="Lakeland">Lakeland</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--!Shop Locator For Modal Ends-->
+                            <div class="horizontal_line"></div>
+                            <div class="track_order">
+                                <div class="icon_cus">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href=""><i
+                                            class="fa-solid fa-truck"></i></a>
+                                </div>
+                                <div class="txt_cus">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href="">Track
+                                        Order</a>
+                                </div>
+                            </div>
+                            <!--!Track Order For Modal Starts-->
+                            <div class="modal fade for_track_order" id="exampleModalThree" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                    <div class="modal-content for_modal_content">
+                                        <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body for_modal_body">
+                                            <div class="for_heading">
+                                                <p>SIGN IN</p>
+                                            </div>
+                                            <div class="for_content">
+                                                <div class="for_txt">
+                                                    <p>Sign in now, Let's start your Grocery Shopping. Don't have an
+                                                        account?
+                                                        <a href="#">Sign Up Now</a>
+                                                    </p>
+                                                </div>
+                                                <form class="d-flex flex-column">
+                                                    <div class="form_group">
+                                                        <input type="text" id="username" placeholder="User Name">
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <input type="password" id="password" placeholder="Password">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary btn-block">SIGN
+                                                        UP</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--!Track Order For Modal Ends-->
+                            <div class="horizontal_line"></div>
+                            <div class="phn_no">
+                                <div class="icon_cus">
+                                    <a href=""><i class="fa-solid fa-phone"></i></a>
+                                </div>
+                                <div class="txt_cus">
+                                    <a href="">001 234 5678</a>
+                                </div>
+                            </div>
+                            <div class="horizontal_line"></div>
+                            <div class="sign_in">
+                                <div class="icon_cus">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href=""><i
+                                            class="fa-solid fa-unlock"></i></a>
+                                </div>
+                                <div class="txt_cus">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalThree" href="">Sign in</a>
+                                </div>
+                            </div>
+                            <div class="horizontal_line"></div>
+                            <div class="sign_up">
+                                <div class="icon_cus">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUp" href=""><i
+                                            class="fa-solid fa-pen-to-square"></i></a>
+                                </div>
+                                <div class="txt_cus">
+                                    <a data-bs-toggle="modal" data-bs-target="#exampleModalSignUp" href="">Sign up</a>
+                                </div>
+                            </div>
+                            <!--!Sign Up For Modal Starts-->
+                            <div class="modal fade for_track_order" id="exampleModalSignUp" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered for_modal_dialog">
+                                    <div class="modal-content for_modal_content">
+                                        <div class="for_close_btn d-flex justify-content-center align-items-center">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body for_modal_body">
+                                            <div class="for_heading">
+                                                <p>SIGN UP</p>
+                                            </div>
+                                            <div class="for_content">
+                                                <div class="for_txt">
+                                                    <p>Come join the Grocery Shoppy! Let's set up your account.
+                                                    </p>
+                                                </div>
+                                                <form class="d-flex flex-column">
+                                                    <div class="form_group">
+                                                        <input type="text" id="username" placeholder="User Name">
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <input type="email" id="email" placeholder="E-mail">
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <input type="password" id="password" placeholder="Password">
+                                                    </div>
+                                                    <div class="form_group">
+                                                        <input type="password" id="password"
+                                                            placeholder="Confirm Password">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary btn-block">SIGN
+                                                        UP</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--!Sign Up For Modal Ends-->
+                            <div class="horizontal_line"></div>
+                        </div>
+                        <div class="searchbar_shopcart_wrap d-flex">
+                            <div class="searchbar_icon_wrap d-flex">
+                                <div class="searchbar_icon_inner d-flex">
+                                    <div class="searchbar_cus">
+                                        <input type="search" placeholder="How can we help you today?">
+                                    </div>
+                                    <button class="searchbar_icon_cus"><i
+                                            class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+                            </div>
+                            <div class="shop_curt d-flex justify-content-center align-items-center">
+                                <a href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!--Navbar One Ends-->
+        <!--Navbar Two Starts-->
+        <section class="navbar navbar_two_main d-none d-lg-block">
+            <nav class="container-fluid bg-body-tertiary navbar_two_inner">
+                <div class="nav_menu_cus d-flex align-items-center">
+                    <div class="nav_menu_cus_one">
+                        <div class="all_category_wrap" id="navbarNavDropdown">
+                            <div class="navbar-nav all_category_wrap_inner">
+                                <div class="nav-item dropdown all_category_cus">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        All Categories
+                                    </a>
+                                    <div class="dropdown-menu dropdown_menu_cus">
+                                        <a class="dropdown-item" href="#">All Categories</a>
+                                        <a class="dropdown-item" href="#">Kitchen</a>
+                                        <a class="dropdown-item" href="#">Household</a>
+                                        <a class="dropdown-item" href="#">Snacks & Beverages</a>
+                                        <a class="dropdown-item" href="#">Personal Care</a>
+                                        <a class="dropdown-item" href="#">Gift Hampers</a>
+                                        <a class="dropdown-item" href="#">Fruits Vegetables</a>
+                                        <a class="dropdown-item" href="#">Baby Care</a>
+                                        <a class="dropdown-item" href="#">Soft Drinks & Juices</a>
+                                        <a class="dropdown-item" href="#">Frozen Food</a>
+                                        <a class="dropdown-item" href="#">Bread & Bakery</a>
+                                        <a class="dropdown-item" href="#">Sweets</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_menu_cus_two d-flex flex-row align-items-center justify-content-around">
+                        <div class="home_cus">
+                            <a class="active" href="index.html">Home</a>
+                        </div>
+                        <div class="about_us_cus">
+                            <a href="aboutUs.html">About Us</a>
+                        </div>
+                        <div class="kitchen_wrap" id="navbarNavDropdown">
+                            <div class="navbar-nav kitchen_wrap_inner">
+                                <div class="nav-item dropdown kitchen_cus">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Kitchen
+                                    </a>
+                                    <div class="dropdown-menu dropdown_menu_cus">
+                                        <div class="menu_item_cus d-flex">
+                                            <div class="menu_one">
+                                                <a class="dropdown-item" href="kitchenBakery.html">Bakery</a>
+                                                <a class="dropdown-item" href="#">Baking Supplies</a>
+                                                <a class="dropdown-item" href="#">Coffee, Tea & Beverages</a>
+                                                <a class="dropdown-item" href="#">Dried Fruits, Nuts</a>
+                                                <a class="dropdown-item" href="#">Sweets, Chocolate</a>
+                                                <a class="dropdown-item" href="#">Spices, Masalas</a>
+                                                <a class="dropdown-item" href="#">Jams, Honey & Spreads</a>
+                                                <img class="dropdown-item" src="img/nav.webp" alt="">
+                                            </div>
+                                            <div class="menu_two">
+                                                <a class="dropdown-item" href="#">Pickles</a>
+                                                <a class="dropdown-item" href="#">Pasta & Noodles</a>
+                                                <a class="dropdown-item" href="#">Rice, Flour & Pulses</a>
+                                                <a class="dropdown-item" href="#">Sauces & Cooking Pastes</a>
+                                                <a class="dropdown-item" href="#">Snack Foods</a>
+                                                <a class="dropdown-item" href="#">Oils & Vinegars</a>
+                                                <a class="dropdown-item" href="#">Meat, Poultry & Seafood</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="household_wrap" id="navbarNavDropdown">
+                            <div class="navbar-nav household_wrap_inner">
+                                <div class="nav-item dropdown household_cus">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Household
+                                    </a>
+                                    <div class="dropdown-menu dropdown_menu_cus">
+                                        <div class="menu_item_cus d-flex">
+                                            <div class="menu_one">
+                                                <a class="dropdown-item" href="#">Kitchen & Dining</a>
+                                                <a class="dropdown-item" href="#">Ditergents</a>
+                                                <a class="dropdown-item" href="#">Utensil Cleaners</a>
+                                                <a class="dropdown-item" href="#">Floor & Other Cleaners</a>
+                                                <a class="dropdown-item" href="#">Disposables & Garbage Bag</a>
+                                                <a class="dropdown-item" href="#">Repellents & Fresheners</a>
+                                                <a class="dropdown-item" href="#">Dishwash</a>
+                                            </div>
+                                            <div class="menu_two">
+                                                <a class="dropdown-item" href="#">Pet Care</a>
+                                                <a class="dropdown-item" href="#">Cleaning Accessories</a>
+                                                <a class="dropdown-item" href="#">Pooja Needs</a>
+                                                <a class="dropdown-item" href="#">Crackers</a>
+                                                <a class="dropdown-item" href="#">Festive Decoratives</a>
+                                                <a class="dropdown-item" href="#">Plasticware</a>
+                                                <a class="dropdown-item" href="#">Home Care</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faqs_cus">
+                            <a href="faqs.html">Faqs</a>
+                        </div>
+                        <div class="pages_wrap" id="navbarNavDropdown">
+                            <div class="navbar-nav pages_wrap_inner">
+                                <div class="nav-item dropdown pages_cus">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <div class="dropdown-menu dropdown_menu_cus">
+                                        <a class="dropdown-item" href="#">Web Icons</a>
+                                        <a class="dropdown-item" href="#">Typography</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact_cus">
+                            <a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!--Navbar Two Ends-->
+        <!--Kitchen Products Banner Starts-->
+        <section class="kitchen_products_banner_main">
+            <div class="kitchen_products_banner_inner">
+                <div class="for_banner"></div>
+                <div class="for_link d-flex align-items-center">
+                    <p><a href="index.html">HOME</a> | <a href="aboutUs.html">KITCHEN PRODUCTS</a></p>
+                </div>
+            </div>
+        </section>
+        <!--Kitchen Products Banner Ends-->
+        <!--Kitchen Products Title Section Starts-->
+        <section class="kitchen_products_title_main">
+            <div class="kitchen_products_title_inner">
+                <div class="kitchen_products_title_txt d-flex justify-content-center">
+                    <p>Kitchen Products</p>
+                </div>
+                <div class="vertical_line d-flex justify-content-center">
+                    <div class="normal_line"></div>
+                    <div class="box_cus d-flex">
+                        <div class="box_one"></div>
+                        <div class="box_two"></div>
+                        <div class="box_one"></div>
+                    </div>
+                    <div class="normal_line"></div>
+                </div>
+            </div>
+        </section>
+        <!--Kitchen Products Title Section Ends-->
+        <!--Top Products Section Starts-->
+        <section class="kitchen_products_main">
+            <div class="kitchen_products_inner d-flex flex-row">
+                <div class="search_priceRange_foodPreference_discount_customerReview_cuisine_specialDeals_wrap_main">
+                    <div
+                        class="search_priceRange_foodPreference_discount_customerReview_cuisine_specialDeals_wrap_inner">
+                        <div class="search_box_wrap">
+                            <form action="">
+                                <div class="d-flex">
+                                    <div class="d-flex flex-column">
+                                        <label for="">Search Here..</label>
+                                        <input type="search" placeholder="Product name...">
+                                    </div>
+                                    <button><i class="fa-solid fa-chevron-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="divider_line_cus"></div>
+                        <div class="price_range_wrap">
+                            <div>
+                                <p>Price Range</p>
+                            </div>
+                            <form action="">
+                                <label for="">$50 - $6000</label>
+                                <input type="range" min="50" max="6000" value="5789">
+                            </form>
+                        </div>
+                        <div class="divider_line_cus"></div>
+                        <div class="food_preference_wrap">
+                            <div>
+                                <p>Food Preference</p>
+                            </div>
+                            <form action="">
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Vegetarian</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Non-Vegetarian</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="discount_wrap">
+                            <div>
+                                <p>Discount</p>
+                            </div>
+                            <form action="">
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">5% or More</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">10% or More</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">20% or More</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">30% or More</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">50% or More</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">60% or More</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="customer_review_wrap">
+                            <div class="for_heading">
+                                <p>Customer Review</p>
+                            </div>
+                            <div class="for_five d-flex flex-row">
+                                <div class="for_icon d-flex flex-row">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                                <div class="for_txt">
+                                    <p>5.0</p>
+                                </div>
+                            </div>
+                            <div class="for_four d-flex flex-row">
+                                <div class="for_icon d-flex flex-row">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                </div>
+                                <div class="for_txt">
+                                    <p>4.0</p>
+                                </div>
+                            </div>
+                            <div class="for_three_point_five d-flex flex-row">
+                                <div class="for_icon d-flex flex-row">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                </div>
+                                <div class="for_txt">
+                                    <p>3.5</p>
+                                </div>
+                            </div>
+                            <div class="for_three d-flex flex-row">
+                                <div class="for_icon d-flex flex-row">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                </div>
+                                <div class="for_txt">
+                                    <p>3.0</p>
+                                </div>
+                            </div>
+                            <div class="for_two_point_five d-flex flex-row">
+                                <div class="for_icon d-flex flex-row">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                </div>
+                                <div class="for_txt">
+                                    <p>2.5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cuisine_wrap">
+                            <div>
+                                <p>Cuisine</p>
+                            </div>
+                            <form action="">
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">South American</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">French</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Greek</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Chinese</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Japanese</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Italian</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Mexican</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Thai</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Indian</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">Spanish</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="special_deals_wrap">
+                            <div class="for_heading">
+                                <p>Special Deals</p>
+                            </div>
+                            <div class="special_deal_item_wrap d-flex flex-column">
+                                <div class="special_deals_item d-flex flex-row">
+                                    <div class="special_deals_item_img">
+                                        <img src="dist/img/dTwo.webp" alt="">
+                                    </div>
+                                    <div
+                                        class="special_deals_item_information d-flex flex-column justify-content-center">
+                                        <div class="special_deals_item_name">
+                                            <p>Lay's Potato Chips</p>
+                                        </div>
+                                        <span class="special_deals_item_price">$18.00</span>
+                                    </div>
+                                </div>
+                                <div class="special_deals_item d-flex flex-row">
+                                    <div class="special_deals_item_img">
+                                        <img src="dist/img/dOne.webp" alt="">
+                                    </div>
+                                    <div
+                                        class="special_deals_item_information d-flex flex-column justify-content-center">
+                                        <div class="special_deals_item_name">
+                                            <p>Bingo Mad Angles</p>
+                                        </div>
+                                        <span class="special_deals_item_price">$9.00</span>
+                                    </div>
+                                </div>
+                                <div class="special_deals_item d-flex flex-row">
+                                    <div class="special_deals_item_img">
+                                        <img src="dist/img/dFour.webp" alt="">
+                                    </div>
+                                    <div
+                                        class="special_deals_item_information d-flex flex-column justify-content-center">
+                                        <div class="special_deals_item_name">
+                                            <p>Tata Salt</p>
+                                        </div>
+                                        <span class="special_deals_item_price">$15.00</span>
+                                    </div>
+                                </div>
+                                <div class="special_deals_item d-flex flex-row">
+                                    <div class="special_deals_item_img">
+                                        <img src="dist/img/dFive.webp" alt="">
+                                    </div>
+                                    <div
+                                        class="special_deals_item_information d-flex flex-column justify-content-center">
+                                        <div class="special_deals_item_name">
+                                            <p>Gujarat Dry Fruit</p>
+                                        </div>
+                                        <span class="special_deals_item_price">$525.00</span>
+                                    </div>
+                                </div>
+                                <div class="special_deals_item d-flex flex-row">
+                                    <div class="special_deals_item_img">
+                                        <img src="dist/img/dThree.webp" alt="">
+                                    </div>
+                                    <div
+                                        class="special_deals_item_information d-flex flex-column justify-content-center">
+                                        <div class="special_deals_item_name">
+                                            <p>Cadbury Dairy Milk</p>
+                                        </div>
+                                        <span class="special_deals_item_price">$149.00</span>
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kitchen_products_item_wrap_main">
+                    <div class="kitchen_products_item_wrap_inner">
+                        <div class="kitchen_items_wrap d-flex flex-column">
+                            <div class="basmati_gulabJamun_greenTea_wrap d-flex flex-row justify-content-around">
+                                <div class="basmati_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/bbqSauce.webp" alt="">
+                                        <div class="color_cus d-flex justify-content-center align-items-center">
+                                            <p>QUICK VIEW</p>
+                                        </div>
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>BBQ Sauce</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$950.00</span>
+                                        <del class="two">$1020.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                                <div class="gulabJamun_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus for_bg_cus_one d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/chilliSauce.webp" alt="">
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Chilli Sauce</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$137.00</span>
+                                        <del class="two">$420.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                                <div class="greenTea_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus for_bg_cus_two d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/cuminPaste.webp" alt="">
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Cumin Paste</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$384.00</span>
+                                        <del class="two">$430.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                            </div>
+                            <div class="chilli_pepper_elaichi_wrap d-flex flex-row justify-content-around">
+                                <div class="chilli_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/garlicPaste.webp" alt="">
+                                        <div class="color_cus d-flex justify-content-center align-items-center">
+                                            <p>QUICK VIEW</p>
+                                        </div>
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Garlic Paste</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$149.00</span>
+                                        <del class="two">$280.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                                <div class="pepper_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus for_bg_cus_one d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/gingerPaste.webp" alt="">
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Ginger Paste</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$200.00</span>
+                                        <del class="two">$420.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                                <div class="elaichi_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus for_bg_cus_two d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/greenChilliPaste.webp" alt="">
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Green Chilli Paste</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$137.00</span>
+                                        <del class="two">$420.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                            </div>
+                            <div class="narulag_fill_amul_wrap d-flex flex-row justify-content-around">
+                                <div class="narulag_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/mastardSauce.webp" alt="">
+                                        <div class="color_cus d-flex justify-content-center align-items-center">
+                                            <p>QUICK VIEW</p>
+                                        </div>
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Mastard Sauce</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$384.00</span>
+                                        <del class="two">$430.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                                <div class="fill_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus for_bg_cus_one d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/mayonnaiseSauce.webp" alt="">
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Mayonnaise</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$200.00</span>
+                                        <del class="two">$420.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                                <div class="amul_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus for_bg_cus_two d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/onionPaste.webp" alt="">
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Onion Paste</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$520.00</span>
+                                        <del class="two">$600.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                            </div>
+                            <div class="snickers_jam_pickles_wrap d-flex flex-row justify-content-around">
+                                <div class="snickers_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/redChilliPaste.webp" alt="">
+                                        <div class="color_cus d-flex justify-content-center align-items-center">
+                                            <p>QUICK VIEW</p>
+                                        </div>
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Red Chilli Paste</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$149.00</span>
+                                        <del class="two">$280.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                                <div class="jam_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus for_bg_cus_one d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/soyaSauce.webp" alt="">
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Soya Sauce</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$200.00</span>
+                                        <del class="two">$420.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                                <div class="pickles_cus d-flex flex-column justify-content-center align-items-center">
+                                    <!--!For New Sticker Starts-->
+                                    <div class="new_sticker_cus for_bg_cus_two d-flex justify-content-center align-items-center">
+                                        <p>New</p>
+                                    </div>
+                                    <!--!For New Sticker Ends-->
+                                    <div class="for_img">
+                                        <img src="dist/photo/kitchenSauces/tomatoSauce.webp" alt="">
+                                    </div>
+                                    <div class="for_txt">
+                                        <p>Tomato Sauce</p>
+                                    </div>
+                                    <div class="for_price d-flex flex-row">
+                                        <span class="one">$520.00</span>
+                                        <del class="two">$600.00</del>
+                                    </div>
+                                    <button>Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Top Products Section Ends-->
+        <!--Special Offers Title Starts-->
+        <section class="special_offers_title_main">
+            <div class="special_offers_title_inner">
+                <div class="special_offers_title_txt d-flex justify-content-center">
+                    <p>Special Offers</p>
+                </div>
+                <div class="vertical_line d-flex justify-content-center">
+                    <div class="normal_line"></div>
+                    <div class="box_cus d-flex">
+                        <div class="box_one"></div>
+                        <div class="box_two"></div>
+                        <div class="box_one"></div>
+                    </div>
+                    <div class="normal_line"></div>
+                </div>
+            </div>
+        </section>
+        <!--Special Offers Title Ends-->
+        <!--Special Offers Slider Starts-->
+        <section class="special_offers_slider_main">
+            <div class="special_offers_slider_inner">
+                <div class="owl-carousel owl-theme owl_carousel_slider_two">
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/sOne.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Aashirvaad, 5g</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$220.00</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $40.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/sTwo.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Madhur sugar (500 gm)</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$320.00</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $20.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/sThree.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Surf Excel Liquid, 1.02L</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$187.00</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $30.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/SFour.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Kissan Tomato Ketchup, 500g</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$99.00</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $20.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/sFive.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Sprite, 2.25L (Pack of 2)</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$180.00</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $30.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/sSix.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Fair & Lovely, 80g</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$121.60</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $30.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/sSeven.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Johnson Baby Lotion, 500mL</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$22.00</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $20.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/sEight.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Cadbury Choclairs, 655.5g</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$160.00</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $60.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="special_offers_item_main">
+                        <div class="special_offers_item_inner">
+                            <div class="for_img">
+                                <img src="dist/img/sNine.webp" alt="">
+                            </div>
+                            <div class="for_txt d-flex flex-column">
+                                <div class="for_name">
+                                    <p>Lakme Eyeconic Kajol, 0.35g</p>
+                                </div>
+                                <div class="for_price">
+                                    <p>$153.00</p>
+                                </div>
+                                <div class="for_save d-flex align-items-center">
+                                    <p>Save $40.00</p>
+                                </div>
+                                <button>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--!For Custom Nav-->
+                <div id="myNavTwo"></div>
+            </div>
+        </section>
+        <!--Special Offers Slider Ends-->
+        <!--Local Store Section Starts-->
+        <section class="local_store_main">
+            <div class="local_store_inner d-flex flex-row justify-content-between align-items-center">
+                <div class="txt_email_wrap">
+                    <div class="for_txt">
+                        <div class="big_txt">
+                            <p>Get your Groceries delivered from local stores</p>
+                        </div>
+                        <div class="small_txt">
+                            <p>Free Delivery on your first order!</p>
+                        </div>
+                    </div>
+                    <div class="for_mail">
+                        <form action="">
+                            <input type="email" placeholder="E-mail">
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="for_img">
+                    <img src="dist/img/tab.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <!--Local Store Section Ends-->
+        <!--Grocery Shoppy Section Starts-->
+        <section class="grocery_shoppy_main">
+            <div class="grocery_shoppy_inner">
+                <p><span>"Grocery Shoppy"</span> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut
+                    perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo.
+                </p>
+            </div>
+        </section>
+        <!--Grocery Shoppy Section Ends-->
+        <!--Track Return Cancellation Section Starts-->
+        <section class="track_return_cancellation_wrap_main">
+            <div class="vertical_line_cus"></div>
+            <div class="track_return_cancellation_wrap_inner d-flex flex-row justify-content-center">
+                <div class="for_track d-flex flex-row justify-content-center align-items-center">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <div class="for_txt">
+                        <p>Track Your <br> Order</p>
+                    </div>
+                </div>
+                <div class="for_return d-flex flex-row justify-content-center align-items-center">
+                    <span><i class="fa-solid fa-arrows-rotate"></i></span>
+                    <div class="for_txt">
+                        <p>Free & Easy <br> Returns</p>
+                    </div>
+                </div>
+                <div class="for_cancellation d-flex flex-row justify-content-center align-items-center">
+                    <span><i class="fa-solid fa-xmark"></i></span>
+                    <div class="for_txt">
+                        <p>Online <br> Cancellation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vertical_line_cus"></div>
+        </section>
+        <!--Track Return Cancellation Section Ends-->
+        <!--Footer Section Starts-->
+        <section class="footer_main">
+            <div class="footer_inner d-flex">
+                <div class="for_categories">
+                    <div class="for_heading">
+                        <p>Categories</p>
+                    </div>
+                    <div class="for_item d-flex flex-row">
+                        <div class="one d-flex flex-column">
+                            <a href="#">Grocery</a>
+                            <a href="#">Fruits</a>
+                            <a href="#">Soft Drinks</a>
+                            <a href="#">Dishwashers</a>
+                            <a href="#">Biscuits & Cookies</a>
+                            <a href="#">Baby Diapers</a>
+                        </div>
+                        <div class="two d-flex flex-column">
+                            <a href="#">Snacks & Beverages</a>
+                            <a href="#">Bread & Bakery</a>
+                            <a href="#">Sweets</a>
+                            <a href="#">Chocolates & Biscuits</a>
+                            <a href="#">Personal Care</a>
+                            <a href="#">Dried Fruits & Nuts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="for_quick_links">
+                    <div class="for_heading">
+                        <p>Quick Links</p>
+                    </div>
+                    <div class="for_item d-flex flex-column">
+                        <a href="#">About Us</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Helps</a>
+                        <a href="#">Faqs</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="for_get_in_touch">
+                    <div class="for_heading">
+                        <p>Get in Touch</p>
+                    </div>
+                    <div class="for_item">
+                        <div>
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <p>123 Sebastian, USA</p>
+                        </div>
+                        <div>
+                            <span><i class="fa-solid fa-mobile-screen-button"></i></span>
+                            <p>333 222 3333</p>
+                        </div>
+                        <div>
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <p>+222 11 4444</p>
+                        </div>
+                        <div>
+                            <span><i class="fa-regular fa-envelope"></i></span>
+                            <p><span>mail@example.com</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="for_follow_download_wrap d-flex flex-column">
+                    <div class="for_follow">
+                        <div class="for_heading">
+                            <p>Follow Us On</p>
+                        </div>
+                        <div class="for_icon d-flex flex_row">
+                            <div class="fb"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="twt"><i class="fa-brands fa-x-twitter"></i></div>
+                            <div class="ggl"><i class="fa-brands fa-google-plus-g"></i></div>
+                        </div>
+                    </div>
+                    <div class="for_download">
+                        <div class="for_download_heading">
+                            <p>Download The App</p>
+                        </div>
+                        <div class="img_one">
+                            <img src="dist/img/googlePlay.webp" alt="">
+                        </div>
+                        <div class="img_two">
+                            <img src="dist/img/appStore.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer Section Ends-->
+        <!--Online Grocery Shopping Starts-->
+        <section class="online_grocery_shopping_main">
+            <div class="online_grocery_shopping_inner">
+                <div class="for_heading">
+                    <p>Online Grocery Shopping</p>
+                </div>
+                <div class="for_txt">
+                    <p>Order online. All your favourite products from the low price online supermarket for grocery home
+                        delivery in Delhi, Gurgaon, Bengaluru, Mumbai and other cities in India. Lowest prices
+                        guaranteed on Patanjali, Aashirvaad, Pampers, Maggi, Saffola, Huggies, Fortune, Nestle, Amul,
+                        MamyPoko Pants, Surf Excel, Ariel, Vim, Haldiram's and others.</p>
+                </div>
+            </div>
+        </section>
+        <!--Online Grocery Shopping Ends-->
+        <!--Shop Online With Best Deals Offers Starts-->
+        <section class="shop_online_best_deal_main">
+            <div class="shop_online_best_deal_inner">
+                <div class="for_heading">
+                    <p>Shop Online With The Best Deals & Offers</p>
+                </div>
+                <div class="for_txt">
+                    <p>Now Get Upto 40% Off On Everyday Essential Products Shown On The Offer Page. The range includes
+                        Grocery, Personal Care, Baby Care, Pet Supplies, Healthcare and Other Daily Need Products.
+                        Discount May Vary From Product To Product</p>
+                </div>
+            </div>
+        </section>
+        <!--Shop Online With Best Deals Offers Ends-->
+        <!--Popular Brands Starts-->
+        <section class="popular_brands_main">
+            <div class="popular_brands_inner">
+                <div class="for_heading">
+                    <p>Popular Brands</p>
+                </div>
+                <div class="for_txt">
+                    <p>Aashirvaad Amul Bingo Boost Durex Maggi Glucon-D Horlicks <span>Head & Shoulders</span> Dove
+                        Dettol Dabur Colgate Coca-Cola Closeup Cinthol Cadbury Bru Tang Pears Oreo <span>Taj
+                            Mahal</span> Sprite <span>Thums Up</span> <span>Fair & Lovely</span> Lakme Tata Sunfeast
+                        Sunsilk Patanjali MTR Kissan Lipton Bournvita</p>
+                </div>
+            </div>
+        </section>
+        <!--Popular Brands Ends-->
+        <!--Payment Method Starts-->
+        <section class="payment_method_main">
+            <div class="payment_method_inner">
+                <div class="for_heading">
+                    <p>Payment Method</p>
+                </div>
+                <div class="for_img">
+                    <a href="#"><img src="dist/img/masterCard.webp" alt=""></a>
+                    <a href="#"><img src="dist/img/discover.webp" alt=""></a>
+                    <a href="#"><img src="dist/img/visa.webp" alt=""></a>
+                    <a href="#"><img src="dist/img/americanExpress.webp" alt=""></a>
+                    <a href="#"><img src="dist/img/rupay.webp" alt=""></a>
+                    <a href="#"><img src="dist/img/maestro.webp" alt=""></a>
+                    <a href="#"><img src="dist/img/netBanking.webp" alt=""></a>
+                    <a href="#"><img src="dist/img/cashOnDelivery.webp" alt=""></a>
+                    <a href="#"><img src="dist/img/easyEmiOption.webp" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <!--Payment Method Ends-->
+        <!--Copyright Section Starts-->
+        <section class="copyright_main">
+            <div class="copyright_inner">
+                <div class="copyright_txt">
+                    <p><span><i class="fa-regular fa-copyright"></i></span> 2024 Grocery Shoppy. All Rights Reserved |
+                        Design by On_Sumaiya</p>
+                </div>
+            </div>
+        </section>
+        <!--Copyright Section Ends-->
+
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+            integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/fontawesome.min.js"
+            integrity="sha512-1M9vud0lqoXACA9QaA8IY8k1VR2dMJ2Qmqzt9pN2AH7eQHWpNsxBpaayV0kKkUsF7FLVQ2sA2SSc8w5VOm7/mg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/regular.min.js"
+            integrity="sha512-s0L3HnrNgQ+MciZHcaAlCjhbT5/p8JnZRjuV9CA/4qhX5ywNGy/4j8K6UBkFw5fdt2RVvn6aP4AKfKHhpkrKyA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
